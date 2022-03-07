@@ -1,11 +1,6 @@
-## My Project
+## Corretto-Downloads
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+This package will contain cross version download information and links that do not fit into the version specific packages.
 
 ## Security
 
