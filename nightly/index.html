@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <style type="text/css">
+      .col-10 > .row:first-child {
+        border-top:0;
+        border-top-style: none;
+      }
+      .col-1 > .row-child {
+        border-top:0;
+        border-top-style: none;
+      }
+      .nested-border > .table-bordered:first-child {
+        border-top:0;
+        border-top-style: none;
+      }
+    </style>
+
+    <title>Amazon Corretto nightly build downloads</title>
+  </head>
+  <body>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js" integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" integrity="sha512-Oy+sz5W86PK0ZIkawrG0iv7XwWhYecM3exvUtMKNJMekGFJtVAhibhRPTpmyTj8+lJCkmWfnpxKgT2OopquBHA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <div class="container">
+      <h1 class="text-center">Amazon Corretto nightly build downloads</h1>
+      <h2 class="text-center" id="date"></h2>
+      <div class='input-group date' id='datepicker'>
+        <input type="text" value="" size="16" class="span2">
+        <span class="input-group-addon"><span class="bi bi-calendar3"></span></span>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <select id="versionSelect" class="form-select required" onchange="onSelectChange()"> <option selected>All Versions</option></select>
+        </div>
+        <div class="col">
+          <select id="platformSelect" class="form-select required" onchange="onSelectChange()"> <option selected>All Platforms</option></select>
+        </div>
+        <div class="col">
+          <select id="architectureSelect" class="form-select required" onchange="onSelectChange()"> <option selected>All Architectures</option></select>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="background-color:white;color: black;" id="target"></div>
+    <script type="text/javascript">
+
+      function onSelectChange() {
+        buildPage(jsonText, true);
+      };
+
+      $(function () {
+            $('#datepicker').datepicker({
+              format: 'yyyy-mm-dd',
+            }).on('changeDate', function(e) {
+              const corretto_domain = 'https://corretto.aws/';
+              const new_url = corretto_domain + 'nightly/' + e.date.getFullYear() + '/' + ("0" + (e.date.getMonth() + 1)).slice(-2) + '/' + ("0" + e.date.getDate()).slice(-2) + '/manifest.json';
+              $(this).datepicker('hideWidget');
+              console.log(new_url);
+              loadJSON(new_url);
+            })
+          });
+      function loadJSON(url) {
+        var xhttp;
+        xhttp=new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            jsonText = xhttp.responseText
+            buildPage(jsonText, false);
+          } else {
+            $('#target').html('No builds available for selected date.');
+            document.getElementById("date").innerHTML = '';
+          }
+        };
+        xhttp.open("GET", url, true);
+        xhttp.send();
+      }
+      function buildPage(jsonText, is_rebuild) {
+        const corretto_domain = 'https://corretto.aws/';
+        var data = JSON.parse(jsonText);
+        // console.log("my object: %o", data)
+        document.getElementById("date").innerHTML = data.date;
+
+        // TODO: Sort versions so Corretto8 is 1st
+        // TODO: Add branch descriptions
+
+        const select_version = document.getElementById('versionSelect');
+        const select_platform = document.getElementById('platformSelect');
+        const select_architecture = document.getElementById('architectureSelect');
+
+        const known_versions = new Set()
+        const known_platforms = new Set()
+        const known_architectures = new Set()
+        $html = '';
+        $html += '<table class="table table-bordered table-striped">'
+        $html += '<thead>'
+        $html += '<tr>'
+        $html += '<th scope="col">Version</th>'
+        $html += '<th scope="col">Branch</th>'
+        $html += '<th scope="col">Commit</th>'
+        $html += '<th scope="col">Debug Level</th>'
+        $html += '<th scope="col">Platform</th>'
+        $html += '<th scope="col">Architecture</th>'
+        $html += '<th scope="col">Artifacts</th>'
+        $html += '</tr></thead>'
+        $html += '<tbody>'
+        for (version in data.versions) {
+          known_versions.add(version);
+          for (branch in data.versions[version].branches) {
+            for (commit in data.versions[version].branches[branch].commits) {
+              for (debug_level in data.versions[version].branches[branch].commits[commit].debug_levels) {
+                for (platform in data.versions[version].branches[branch].commits[commit].debug_levels[debug_level].platforms) {
+                  known_platforms.add(platform);
+                  for (arch in data.versions[version].branches[branch].commits[commit].debug_levels[debug_level].platforms[platform].architectures) {
+                    architecture = data.versions[version].branches[branch].commits[commit].debug_levels[debug_level].platforms[platform].architectures[arch];
+                    known_architectures.add(arch);
+                    if (select_version.selectedIndex != 0 && select_version.options[select_version.selectedIndex].value != version) {
+                      continue;
+                    }
+                    if (select_platform.selectedIndex != 0 && select_platform.options[select_platform.selectedIndex].value != platform) {
+                      continue;
+                    }
+                    if (select_architecture.selectedIndex != 0 && select_architecture.options[select_architecture.selectedIndex].value != arch) {
+                      continue;
+                    }
+                    for (i in architecture.build.artifacts) {
+
+                      $html += '<tr><td class="nested-border">' + version + '</td>';
+                      $html += '<td class="nested-border">' + branch + '</td>';
+                      $html += '<td class="nested-border">' + commit.substring(0, 12) + '</td>';
+                      $html += '<td class="nested-border">' + debug_level + '</td>';
+                      $html += '<td class="nested-border">' + platform + '</td>';
+                      $html += '<td class="nested-border">' + arch + '</td>';
+
+                      artifact = architecture.build.artifacts[i];
+                      $html += '<td class="nested-border"><div><span><a class="badge rounded-pill bg-primary" href="' + corretto_domain + artifact.location + "/" + artifact.filename + '" target="_blank">' + artifact.type + '</a></span>';
+                      for (hash in artifact.hashes) {
+                        $html += '<span> <a class="badge rounded-pill bg-secondary" href="' + corretto_domain + artifact.location + "/" + artifact.hashes[hash] + '" target="_blank">' + hash + '</a></span>';
+                      }
+                      $html += '</div>';
+                    }
+                    $html += '<div class="col">';
+                    for (i in architecture.build.test_results) {
+                      test_result = architecture.build.test_results[i];
+
+                      $html += '<span> <a class="badge rounded-pill bg-success" href="'+ corretto_domain + artifact.location + "/" + test_result + '">'  + test_result.split('/')[1] + '</a></span>';
+                    }
+                    $html += '</td>';
+                  }
+                }
+              }
+            }
+          }
+        }
+        $html += '</tbody></table>'
+
+        if (!is_rebuild) {
+          known_versions.forEach((version) => select_version.add(new Option(version, version)));
+          known_platforms.forEach((platform) => select_platform.add(new Option(platform, platform)));
+          known_architectures.forEach((architecture) => select_architecture.add(new Option(architecture, architecture)));
+        }
+        $('#target').empty();
+        $('#target').html($html);
+      }
+
+      url = 'https://corretto.aws/nightly/latest/manifest.json'
+      loadJSON(url);
+    </script>
+    <hr class="solid">
+    <div>
+      Notes: <br>
+      1. If you do not see any builds for a date, particular OS or architecture for a given night the build may have failed.<br>
+      2. TAP files contain just the pass/fail informaton regarding the various test suites run for a build.<br>
+    </div>
+    <div>
+      Disclaimer: Links are provided for testing/evaluation purposes only and should not be used for production. They contain the latest development code which may contain bugs.
+    </div>
+  </body>
+</html>
