@@ -721,24 +721,24 @@
    "jdk": {
     "11": {
      "pkg": {
-      "checksum": "341a7118825e9d04fe5f20f42909e06e",
-      "checksum_sha256": "705ca08290cdd8a89dc886bcf1753d71765b29bfa5d06d671723ed426c3f58d4",
-      "resource": "/downloads/resources/11.0.16.8.1/amazon-corretto-11.0.16.8.1-macosx-aarch64.pkg"
+      "checksum": "001995b4b62e5b44ac71b740403e54d4",
+      "checksum_sha256": "ba5fdc6ce029f8aa2e2789408266334c480616a058f49b3c8696a591fbc997a3",
+      "resource": "/downloads/resources/11.0.16.8.3/amazon-corretto-11.0.16.8.3-macosx-aarch64.pkg"
      },
      "tar.gz": {
-      "checksum": "ca423daafe89ba1382206e4acd8548b1",
-      "checksum_sha256": "830932a49619a605972b19672e6c20340a0d471b40cce40cbe46df330275cafb",
-      "resource": "/downloads/resources/11.0.16.8.1/amazon-corretto-11.0.16.8.1-macosx-aarch64.tar.gz"
+      "checksum": "97ef4f95aaa583a85f2654238d8bf675",
+      "checksum_sha256": "b3a85aa264b2c4fc49f70001ccff40b30b9d5e719c57b4ff3d24631d3e6ed4d0",
+      "resource": "/downloads/resources/11.0.16.8.3/amazon-corretto-11.0.16.8.3-macosx-aarch64.tar.gz"
      },
      "tar.gz.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/11.0.16.8.1/B04F24E3.pub"
+      "resource": "/downloads/resources/11.0.16.8.3/B04F24E3.pub"
      },
      "tar.gz.sig": {
-      "checksum": "8a707b96986ee91e220683131c87b9a2",
-      "checksum_sha256": "83161f3713d29be4967e95fea08464dcc7541103e6e1b9d874586fb82096600e",
-      "resource": "/downloads/resources/11.0.16.8.1/amazon-corretto-11.0.16.8.1-macosx-aarch64.tar.gz.sig"
+      "checksum": "6a26e33738c2a6bb1d86d819c659d5a6",
+      "checksum_sha256": "78f9e5d46c4d228b0cf74dae1917881fda33a1c092ac1c9ea7d3cc92da9e622c",
+      "resource": "/downloads/resources/11.0.16.8.3/amazon-corretto-11.0.16.8.3-macosx-aarch64.tar.gz.sig"
      }
     },
     "17": {
@@ -813,24 +813,24 @@
    "jdk": {
     "11": {
      "pkg": {
-      "checksum": "b465b0856e21bdf1c63efc758338493b",
-      "checksum_sha256": "9751a4b23928916532fc1f1594edbe9019d8672d9edbd5d3d5189054afec5120",
-      "resource": "/downloads/resources/11.0.16.8.1/amazon-corretto-11.0.16.8.1-macosx-x64.pkg"
+      "checksum": "dd72fbbfa721e3cd422a2a5883c4755c",
+      "checksum_sha256": "6ea0caa2d5cedb859ddb470e54dac08377c216b5921c10dedfb1c2f2e0c58545",
+      "resource": "/downloads/resources/11.0.16.8.3/amazon-corretto-11.0.16.8.3-macosx-x64.pkg"
      },
      "tar.gz": {
-      "checksum": "1297540c640ca4e78600f1a1e9a3ed36",
-      "checksum_sha256": "6c466e90639c0ea30291eb6bba71b7af88343b07b007ff0c6a56ae9c0ec24686",
-      "resource": "/downloads/resources/11.0.16.8.1/amazon-corretto-11.0.16.8.1-macosx-x64.tar.gz"
+      "checksum": "f629535046b54667cc5ec6653935c269",
+      "checksum_sha256": "8d015d4bf405b5027bd88a806a025078a8daa82afbaab06b2ed64c9e638e1e01",
+      "resource": "/downloads/resources/11.0.16.8.3/amazon-corretto-11.0.16.8.3-macosx-x64.tar.gz"
      },
      "tar.gz.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/11.0.16.8.1/B04F24E3.pub"
+      "resource": "/downloads/resources/11.0.16.8.3/B04F24E3.pub"
      },
      "tar.gz.sig": {
-      "checksum": "52a080859cc2ee9c17536c3ccb232c25",
-      "checksum_sha256": "3ecc34e96e66a98dd63f584fa0d6ea197024036e5a0d015eeabd87fa86cd49fc",
-      "resource": "/downloads/resources/11.0.16.8.1/amazon-corretto-11.0.16.8.1-macosx-x64.tar.gz.sig"
+      "checksum": "b1b50828ef52f89dc2574c0e5e30ba25",
+      "checksum_sha256": "691eab756d1730436bde2c6768b0cfea7037d27f452c906759884c8e2a8d2a4a",
+      "resource": "/downloads/resources/11.0.16.8.3/amazon-corretto-11.0.16.8.3-macosx-x64.tar.gz.sig"
      }
     },
     "15": {
