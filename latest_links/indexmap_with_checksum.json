@@ -567,6 +567,27 @@
     }
    }
   },
+  "arm_musl": {
+   "headless": {
+    "11": {
+     "tar.gz": {
+      "checksum": "2c14d752cbbb2d35f73ee26538e03977",
+      "checksum_sha256": "7de1a14eb8975c50b920a04297e60cda08f3c42ed4dd711eb009841dbf766d28",
+      "resource": "/downloads/resources/11.0.16.9.1/amazon-corretto-11.0.16.9.1-linux-armv7-musl-headless.tar.gz"
+     },
+     "tar.gz.pub": {
+      "checksum": "3c97217748c00b6c03e68f832aad6e9d",
+      "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
+      "resource": "/downloads/resources/11.0.16.9.1/B04F24E3.pub"
+     },
+     "tar.gz.sig": {
+      "checksum": "bdb4fe1e06f8407f7487b069550207c8",
+      "checksum_sha256": "7436cdbce4512098730c35889cb58d3408168116565537b9634de843a9a8e205",
+      "resource": "/downloads/resources/11.0.16.9.1/amazon-corretto-11.0.16.9.1-linux-armv7-musl-headless.tar.gz.sig"
+     }
+    }
+   }
+  },
   "x64": {
    "jdk": {
     "11": {
