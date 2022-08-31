@@ -567,7 +567,7 @@
     }
    }
   },
-  "arm_musl": {
+  "arm-musl": {
    "headless": {
     "11": {
      "tar.gz": {
