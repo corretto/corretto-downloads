@@ -102,9 +102,9 @@
         const select_platform = document.getElementById('platformSelect');
         const select_architecture = document.getElementById('architectureSelect');
 
-        const known_versions = new Set()
-        const known_platforms = new Set()
-        const known_architectures = new Set()
+        const known_versions = new Set(['All Versions'])
+        const known_platforms = new Set(['All Platforms'])
+        const known_architectures = new Set(['All Architectures'])
         $html = '';
         $html += '<table class="table table-bordered table-striped">'
         $html += '<thead>'
@@ -169,8 +169,11 @@
         $html += '</tbody></table>'
 
         if (!is_rebuild) {
+          select_version.options.length = 0;
           known_versions.forEach((version) => select_version.add(new Option(version, version)));
+          select_platform.options.length = 0;
           known_platforms.forEach((platform) => select_platform.add(new Option(platform, platform)));
+          select_architecture.options.length = 0;
           known_architectures.forEach((architecture) => select_architecture.add(new Option(architecture, architecture)));
         }
         $('#target').empty();
