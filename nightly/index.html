@@ -63,6 +63,18 @@
         buildPage(jsonText, true);
       };
 
+      // Compare function for getting order Corretto versions.
+      // Strips off the "Corretto" from CorrettoXX so 8 is 1st.
+      function correttoCompare(a, b) {
+          a_ver=Number(a.slice(8));
+          b_ver=Number(b.slice(8));
+          // console.log(a_ver);
+          // console.log(b_ver);
+          if(a_ver < b_ver) return -1;
+          if(a_ver > b_ver) return 1;
+          return 0;
+        };
+
       $(function () {
             $('#datepicker').datepicker({
               format: 'yyyy-mm-dd',
@@ -118,7 +130,7 @@
         $html += '<th scope="col">Artifacts</th>'
         $html += '</tr></thead>'
         $html += '<tbody>'
-        for (version in data.versions) {
+        for (const version of Object.keys(data.versions).sort(correttoCompare)) {
           known_versions.add(version);
           for (branch in data.versions[version].branches) {
             for (commit in data.versions[version].branches[branch].commits) {
