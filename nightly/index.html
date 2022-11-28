@@ -69,8 +69,8 @@
             $('#datepicker').datepicker({
               format: 'yyyy-mm-dd',
             }).on('changeDate', function(e) {
-              const corretto_domain = 'https://corretto.aws/';
-              const new_url = corretto_domain + 'nightly/' + e.date.getFullYear() + '/' + ("0" + (e.date.getMonth() + 1)).slice(-2) + '/' + ("0" + e.date.getDate()).slice(-2) + '/manifest.json';
+              const corretto_domain = 'https://corretto.aws';
+              const new_url = corretto_domain + '/nightly/' + e.date.getFullYear() + '/' + ("0" + (e.date.getMonth() + 1)).slice(-2) + '/' + ("0" + e.date.getDate()).slice(-2) + '/manifest.json';
               $(this).datepicker('hideWidget');
               console.log(new_url);
               loadJSON(new_url);
@@ -92,7 +92,7 @@
         xhttp.send();
       }
       function buildPage(jsonText, is_rebuild) {
-        const corretto_domain = 'https://corretto.aws/';
+        const corretto_domain = 'https://corretto.aws';
         var data = JSON.parse(jsonText);
         document.getElementById("date").innerHTML = data.date;
 
@@ -136,18 +136,19 @@
                       continue;
                     }
                     for (i in architecture.build.artifacts) {
+                      const mv = version.slice(8)
 
-                      $html += '<tr><td class="nested-border">' + version + '</td>';
-                      $html += '<td class="nested-border">' + branch + '</td>';
-                      $html += '<td class="nested-border">' + commit.substring(0, 12) + '</td>';
-                      $html += '<td class="nested-border">' + debug_level + '</td>';
-                      $html += '<td class="nested-border">' + platform + '</td>';
-                      $html += '<td class="nested-border">' + arch + '</td>';
+                      $html += `<tr><td class="nested-border">${version}</td>`;
+                      $html += `<td class="nested-border"><a href="https://github.com/corretto/corretto-${mv}/tree/${branch}" target="_blank">${branch}</a></td>`;
+                      $html += `<td class="nested-border"><a href="https://github.com/corretto/corretto-${mv}/commit/${commit}" target="_blank">${commit.substring(0, 12)}</a></td>`;
+                      $html += `<td class="nested-border">${debug_level}</td>`;
+                      $html += `<td class="nested-border">${platform}</td>`;
+                      $html += `<td class="nested-border">${arch}</td>`;
 
                       artifact = architecture.build.artifacts[i];
-                      $html += '<td class="nested-border"><div><span><a class="badge rounded-pill bg-primary" href="' + corretto_domain + artifact.location + "/" + artifact.filename + '" target="_blank">' + artifact.type + '</a></span>';
+                      $html += `<td class="nested-border"><div><span><a class="badge rounded-pill bg-primary" href="${corretto_domain}/${artifact.location}/${artifact.filename}" target="_blank">${artifact.type}</a></span>`;
                       for (hash in artifact.hashes) {
-                        $html += '<span> <a class="badge rounded-pill bg-secondary" href="' + corretto_domain + artifact.location + "/" + artifact.hashes[hash] + '" target="_blank">' + hash + '</a></span>';
+                        $html += `<span> <a class="badge rounded-pill bg-secondary" href="${corretto_domain}/${artifact.location}/${artifact.hashes[hash]}" target="_blank">${hash}</a></span>`;
                       }
                       $html += '</div>';
                     }
@@ -155,7 +156,7 @@
                     for (i in architecture.build.test_results) {
                       test_result = architecture.build.test_results[i];
 
-                      $html += '<span> <a class="badge rounded-pill bg-success" href="'+ corretto_domain + artifact.location + "/" + test_result + '">'  + test_result.split('/')[1] + '</a></span>';
+                      $html += `<span> <a class="badge rounded-pill bg-success" href="${corretto_domain}/${artifact.location}/${test_result}">${test_result.split('/')[1]}</a></span>`;
                     }
                     $html += '</td>';
                   }
@@ -194,10 +195,9 @@
     <div>
       <br><h4>Branch descriptions</h4>
       <dl class="row">
-        <dt>develop</dt>
-        <dd>Tracks OpenJDK Update repository</dd>
+        <dt>develop</dt> <dd>Tracks OpenJDK Update repository where stabilization for releases happens.</dd>
         <dt>nightly</dt>
-        <dd>Tracks OpenJDK Update-dev repository</dd>
+        <dd>Tracks OpenJDK Update-dev repository, that contains the latest committed code.</dd>
         <dt>generational-shenandoah</dt>
         <dd>Includes experimental <a href="https://aws.amazon.com/blogs/developer/announcing-preview-release-for-the-generational-mode-to-the-shenandoah-gc/">Generational Shenadoah</a> garbage collector.</dd>
       </dl>
