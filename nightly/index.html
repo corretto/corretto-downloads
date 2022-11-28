@@ -68,8 +68,6 @@
       function correttoCompare(a, b) {
           a_ver=Number(a.slice(8));
           b_ver=Number(b.slice(8));
-          // console.log(a_ver);
-          // console.log(b_ver);
           if(a_ver < b_ver) return -1;
           if(a_ver > b_ver) return 1;
           return 0;
@@ -104,11 +102,7 @@
       function buildPage(jsonText, is_rebuild) {
         const corretto_domain = 'https://corretto.aws/';
         var data = JSON.parse(jsonText);
-        // console.log("my object: %o", data)
         document.getElementById("date").innerHTML = data.date;
-
-        // TODO: Sort versions so Corretto8 is 1st
-        // TODO: Add branch descriptions
 
         const select_version = document.getElementById('versionSelect');
         const select_platform = document.getElementById('platformSelect');
@@ -197,12 +191,25 @@
     </script>
     <hr class="solid">
     <div>
-      Notes: <br>
-      1. If you do not see any builds for a date, particular OS or architecture for a given night the build may have failed.<br>
-      2. TAP files contain just the pass/fail informaton regarding the various test suites run for a build.<br>
+      <h4>Notes</h4>
+      <ul>
+       <li>If you do not see any builds for a date, particular OS or architecture for a given night the build may have failed.</li>
+      <li>TAP files contain just the pass/fail informaton regarding the various test suites run for a build.</li>
+      </ul>
     </div>
     <div>
-      Disclaimer: Links are provided for testing/evaluation purposes only and should not be used for production. They contain the latest development code which may contain bugs.
+      <br><h4>Branch descriptions</h4>
+      <dl class="row">
+        <dt>develop</dt>
+        <dd>Tracks OpenJDK Update repository</dd>
+        <dt>nightly</dt>
+        <dd>Tracks OpenJDK Update-dev repository</dd>
+        <dt>generational-shenandoah</dt>
+        <dd>Includes experimental <a href="https://aws.amazon.com/blogs/developer/announcing-preview-release-for-the-generational-mode-to-the-shenandoah-gc/">Generational Shenadoah</a> garbage collector.</dd>
+      </dl>
+    </div>
+    <div>
+      <br><h4>Disclaimer</h4> Links are provided for testing/evaluation purposes only and should not be used for production. They contain the latest development code which may contain bugs.
     </div>
   </body>
 </html>
