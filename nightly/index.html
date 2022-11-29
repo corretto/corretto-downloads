@@ -31,7 +31,7 @@
         Amazon Corretto provides nightly builds for evaluation and testing purposes. These builds may contain bugs or breaking changes in functionality and are not supported in production environments.
         For the latest supported releases please visit <a href="https://corretto.aws">Corretto.aws</a> for download and installation instructions.
       </p>
-      <div class='input-group date' id='datepicker' style="justify-content: center"><p>Showing builds for
+      <div class="input-group date" id="datepicker" style="justify-content: center"><p>Showing builds for
         <input type="text" value="" size="12">
         <span class="input-group-addon"><span class="bi bi-calendar3"></span></span>
         </p>
@@ -78,25 +78,25 @@
       // Compare function for getting order Corretto versions.
       // Strips off the "Corretto" from CorrettoXX so 8 is 1st.
       function correttoCompare(a, b) {
-          a_ver=Number(a.slice(8));
-          b_ver=Number(b.slice(8));
-          if(a_ver < b_ver) return -1;
-          if(a_ver > b_ver) return 1;
-          return 0;
-        };
+        a_ver=Number(a.slice(8));
+        b_ver=Number(b.slice(8));
+        if(a_ver < b_ver) return -1;
+        if(a_ver > b_ver) return 1;
+        return 0;
+      };
 
       $(function () {
-            $('#datepicker').datepicker({
-              format: 'yyyy-mm-dd',
-              autoclose: true,
-            }).on('changeDate', function(e) {
-              const corretto_domain = 'https://corretto.aws';
-              const new_url = corretto_domain + '/nightly/' + e.date.getFullYear() + '/' + ("0" + (e.date.getMonth() + 1)).slice(-2) + '/' + ("0" + e.date.getDate()).slice(-2) + '/manifest.json';
-              $(this).datepicker('hideWidget');
-              console.log(new_url);
-              loadJSON(new_url);
-            })
-          });
+        $('#datepicker').datepicker({
+          format: 'yyyy-mm-dd',
+          autoclose: true,
+        }).on('changeDate', function(e) {
+          const corretto_domain = 'https://corretto.aws';
+          const new_url = `${corretto_domain}/nightly/${e.date.getFullYear()}/${("0" + (e.date.getMonth() + 1)).slice(-2)}/${("0" + e.date.getDate()).slice(-2)}/manifest.json`;
+          $(this).datepicker('hideWidget');
+          loadJSON(new_url);
+        })
+      });
+
       function loadJSON(url) {
         var xhttp;
         xhttp=new XMLHttpRequest();
@@ -105,20 +105,21 @@
             jsonText = xhttp.responseText
             buildPage(jsonText, false);
           } else {
-            $('#target').html('No builds available for selected date.');
+            $('#target').html("No builds available for selected date.");
           }
         };
         xhttp.open("GET", url, true);
         xhttp.send();
       }
-      function buildPage(jsonText, is_rebuild) {
-        const corretto_domain = 'https://corretto.aws';
-        var data = JSON.parse(jsonText);
-        $('#datepicker').datepicker('update', data.date);
 
-        const select_version = document.getElementById('versionSelect');
-        const select_platform = document.getElementById('platformSelect');
-        const select_architecture = document.getElementById('architectureSelect');
+      function buildPage(jsonText, is_rebuild) {
+        const corretto_domain = "https://corretto.aws";
+        var data = JSON.parse(jsonText);
+        $("#datepicker").datepicker("update", data.date);
+
+        const select_version = document.getElementById("versionSelect");
+        const select_platform = document.getElementById("platformSelect");
+        const select_architecture = document.getElementById("architectureSelect");
 
         const known_versions = new Set()
         const known_platforms = new Set()
@@ -187,7 +188,7 @@
         $('#target').html($html);
       }
 
-      url = 'https://corretto.aws/nightly/latest/manifest.json'
+      url = "https://corretto.aws/nightly/latest/manifest.json"
       loadJSON(url);
     </script>
     <hr class="solid">
