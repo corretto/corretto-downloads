@@ -105,9 +105,9 @@
         const select_platform = document.getElementById('platformSelect');
         const select_architecture = document.getElementById('architectureSelect');
 
-        const known_versions = new Set(['All Versions'])
-        const known_platforms = new Set(['All Platforms'])
-        const known_architectures = new Set(['All Architectures'])
+        const known_versions = new Set()
+        const known_platforms = new Set()
+        const known_architectures = new Set()
         $html = '';
         $html += '<table class="table table-bordered table-striped">'
         $html += '<thead>'
@@ -122,24 +122,25 @@
         $html += '</tr></thead>'
         $html += '<tbody>'
         for (const version of Object.keys(data.versions).sort(correttoCompare)) {
+          // Index 0 is the "All Versions entry", when it is selected no filtering is done.
+          if (select_version.selectedIndex != 0 && select_version.options[select_version.selectedIndex].value != version) {
+            continue;
+          }
           known_versions.add(version);
           for (branch in data.versions[version].branches) {
             for (commit in data.versions[version].branches[branch].commits) {
               for (debug_level in data.versions[version].branches[branch].commits[commit].debug_levels) {
                 for (platform in data.versions[version].branches[branch].commits[commit].debug_levels[debug_level].platforms) {
+                  if (select_platform.selectedIndex != 0 && select_platform.options[select_platform.selectedIndex].value != platform) {
+                      continue;
+                  }
                   known_platforms.add(platform);
                   for (arch in data.versions[version].branches[branch].commits[commit].debug_levels[debug_level].platforms[platform].architectures) {
                     architecture = data.versions[version].branches[branch].commits[commit].debug_levels[debug_level].platforms[platform].architectures[arch];
-                    known_architectures.add(arch);
-                    if (select_version.selectedIndex != 0 && select_version.options[select_version.selectedIndex].value != version) {
-                      continue;
-                    }
-                    if (select_platform.selectedIndex != 0 && select_platform.options[select_platform.selectedIndex].value != platform) {
-                      continue;
-                    }
                     if (select_architecture.selectedIndex != 0 && select_architecture.options[select_architecture.selectedIndex].value != arch) {
                       continue;
                     }
+                    known_architectures.add(arch);
                     for (i in architecture.build.artifacts) {
                       const mv = version.slice(8)
 
@@ -173,11 +174,11 @@
         $html += '</tbody></table>'
 
         if (!is_rebuild) {
-          select_version.options.length = 0;
+          select_version.options.length = 1;
           known_versions.forEach((version) => select_version.add(new Option(version, version)));
-          select_platform.options.length = 0;
+          select_platform.options.length = 1;
           known_platforms.forEach((platform) => select_platform.add(new Option(platform, platform)));
-          select_architecture.options.length = 0;
+          select_architecture.options.length = 1;
           known_architectures.forEach((architecture) => select_architecture.add(new Option(architecture, architecture)));
         }
         $('#target').empty();
