@@ -27,14 +27,18 @@
 
     <div class="container">
       <h1 class="text-center">Amazon Corretto nightly build downloads</h1>
-      <h2 class="text-center" id="date"></h2>
-      <div class='input-group date' id='datepicker'>
-        <input type="text" value="" size="16" class="span2">
+      <p>
+        Amazon Corretto provides nightly builds for evaluation and testing purposes. These builds may contain bugs or breaking changes in functionality and are not supported in production environments.
+        For the latest supported releases please visit <a href="https://corretto.aws">Corretto.aws</a> for download and installation instructions.
+      </p>
+      <div class='input-group date' id='datepicker' style="justify-content: center"><p>Showing builds for
+        <input type="text" value="" size="12">
         <span class="input-group-addon"><span class="bi bi-calendar3"></span></span>
-      </div>
+        </p>
     </div>
 
     <div class="container">
+      <p>
       <div class="row">
         <div class="col">
           <select id="versionSelect" class="form-select required" onchange="onSelectChange()"> <option selected>All Versions</option></select>
@@ -46,6 +50,7 @@
           <select id="architectureSelect" class="form-select required" onchange="onSelectChange()"> <option selected>All Architectures</option></select>
         </div>
       </div>
+      </p>
     </div>
 
     <div class="container" style="background-color:white;color: black;" id="target"></div>
@@ -68,6 +73,7 @@
       $(function () {
             $('#datepicker').datepicker({
               format: 'yyyy-mm-dd',
+              autoclose: true,
             }).on('changeDate', function(e) {
               const corretto_domain = 'https://corretto.aws';
               const new_url = corretto_domain + '/nightly/' + e.date.getFullYear() + '/' + ("0" + (e.date.getMonth() + 1)).slice(-2) + '/' + ("0" + e.date.getDate()).slice(-2) + '/manifest.json';
@@ -85,7 +91,6 @@
             buildPage(jsonText, false);
           } else {
             $('#target').html('No builds available for selected date.');
-            document.getElementById("date").innerHTML = '';
           }
         };
         xhttp.open("GET", url, true);
@@ -94,7 +99,7 @@
       function buildPage(jsonText, is_rebuild) {
         const corretto_domain = 'https://corretto.aws';
         var data = JSON.parse(jsonText);
-        document.getElementById("date").innerHTML = data.date;
+        $('#datepicker').datepicker('update', data.date);
 
         const select_version = document.getElementById('versionSelect');
         const select_platform = document.getElementById('platformSelect');
@@ -185,14 +190,6 @@
     <hr class="solid">
 
     <div>
-      <h4>Notes</h4>
-      <ul>
-       <li>If you do not see any builds for a date, particular OS or architecture for a given night the build may have failed.</li>
-      <li>TAP files contain just the pass/fail informaton regarding the various test suites run for a build.</li>
-      </ul>
-    </div>
-
-    <div>
       <br><h4>Branch descriptions</h4>
       <dl class="row">
         <dt>develop</dt> <dd>Tracks OpenJDK Update repository where stabilization for releases happens.</dd>
@@ -201,6 +198,14 @@
         <dt>generational-shenandoah</dt>
         <dd>Includes experimental <a href="https://aws.amazon.com/blogs/developer/announcing-preview-release-for-the-generational-mode-to-the-shenandoah-gc/">Generational Shenadoah</a> garbage collector.</dd>
       </dl>
+    </div>
+
+    <div>
+      <h4>Notes</h4>
+      <ul>
+      <li>If you do not see any builds for a date, particular OS or architecture for a given date, the build may have been disabled, cancelled or failed. Builds are provided as a best effort.</li>
+      <li>TAP files contain just the pass/fail informaton regarding the various test suites run for a build.</li>
+      </ul>
     </div>
 
     <div>
