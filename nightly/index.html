@@ -53,7 +53,22 @@
       </p>
     </div>
 
-    <div class="container" style="background-color:white;color: black;" id="target"></div>
+    <div class="container" style="background-color:white;color: black;"></div>
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Version</th>
+          <th scope="col">Branch</th>
+          <th scope="col">Commit</th>
+          <th scope="col">Debug Level</th>
+          <th scope="col">Platform</th>
+          <th scope="col">Architecture</th>
+          <th scope="col">Artifacts</th>
+        </tr>
+      </thead>
+      <tbody id="target">
+      </tbody>
+    </table>
     <script type="text/javascript">
 
       function onSelectChange() {
@@ -109,18 +124,6 @@
         const known_platforms = new Set()
         const known_architectures = new Set()
         $html = '';
-        $html += '<table class="table table-bordered table-striped">'
-        $html += '<thead>'
-        $html += '<tr>'
-        $html += '<th scope="col">Version</th>'
-        $html += '<th scope="col">Branch</th>'
-        $html += '<th scope="col">Commit</th>'
-        $html += '<th scope="col">Debug Level</th>'
-        $html += '<th scope="col">Platform</th>'
-        $html += '<th scope="col">Architecture</th>'
-        $html += '<th scope="col">Artifacts</th>'
-        $html += '</tr></thead>'
-        $html += '<tbody>'
         for (const version of Object.keys(data.versions).sort(correttoCompare)) {
           // Index 0 is the "All Versions entry", when it is selected no filtering is done.
           if (select_version.selectedIndex != 0 && select_version.options[select_version.selectedIndex].value != version) {
@@ -171,7 +174,6 @@
             }
           }
         }
-        $html += '</tbody></table>'
 
         if (!is_rebuild) {
           select_version.options.length = 1;
