@@ -1,0 +1,15 @@
+{
+    "supported_lts_releases": [
+        8,
+        11,
+        17
+    ],
+    "supported_feature_releases": [
+        19
+    ],
+    "end_of_life_releases": [
+        15,
+        16,
+        18
+    ]
+}
