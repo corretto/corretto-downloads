@@ -28,7 +28,7 @@
     <div class="container">
       <h1 class="text-center">Amazon Corretto nightly build downloads</h1>
       <p>
-        Amazon Corretto provides nightly builds for evaluation and testing purposes. These builds may contain bugs or breaking changes in functionality and are not supported in production environments.
+        Amazon Corretto provides nightly builds for evaluation and testing purposes. Availability is not guaranteed, and the schedule may vary. These builds may contain bugs or breaking changes in functionality and are not supported in production environments.
         For the latest supported releases please visit <a href="https://aws.amazon.com/corretto/">Amazon Corretto</a> for download and installation instructions.
       </p>
       <div class="input-group date" id="datepicker" style="justify-content: center;"><p>Showing builds for
@@ -78,8 +78,8 @@
       // Compare function for getting order Corretto versions.
       // Strips off the "Corretto" from CorrettoXX so 8 is 1st.
       function correttoCompare(a, b) {
-        a_ver=Number(a.slice(8));
-        b_ver=Number(b.slice(8));
+        a_ver = (a == "CorrettoJdk" ? a_ver=99 : Number(a.slice(8)));
+        b_ver = (b == "CorrettoJdk" ? b_ver=99 : Number(b.slice(8)));
         if(a_ver < b_ver) return -1;
         if(a_ver > b_ver) return 1;
         return 0;
@@ -208,7 +208,7 @@
     <div>
       <h4>Notes</h4>
       <ul>
-      <li>The nightly builds have not passed the Java Technology Compatability Kit (TCK) tests, only Amazon Corretto offical releases are certified.</li>
+      <li>The nightly builds have not passed the Java Technology Compatibility Kit (TCK) tests, only Amazon Corretto official releases are certified.</li>
       <li>If you do not see any builds for a date, particular OS or architecture for a given date, the build may have been disabled, cancelled or failed. Builds are provided as a best effort.</li>
       <li>TAP files contain just the pass/fail informaton regarding the various test suites run for a build.</li>
       </ul>
