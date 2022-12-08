@@ -64,6 +64,8 @@
           <th scope="col">Platform</th>
           <th scope="col">Architecture</th>
           <th scope="col">Artifacts</th>
+          <th scope="col">Hashes/Signatures</th>
+          <th scope="col">Test Results</th>
         </tr>
       </thead>
       <tbody id="target">
@@ -157,17 +159,22 @@
                       $html += `<td class="nested-border">${arch}</td>`;
 
                       artifact = architecture.build.artifacts[i];
-                      $html += `<td class="nested-border"><div><span><a class="badge rounded-pill bg-primary" href="${corretto_domain}/${artifact.location}/${artifact.filename}" target="_blank" tabindex="0">${artifact.type}</a></span>`;
+                      $html += `<td class="nested-border"><span><a class="badge rounded-pill" style="color:#FFFFFF;background-color:#046B99" href="${corretto_domain}/${artifact.location}/${artifact.filename}" target="_blank" tabindex="0">${artifact.type}</a></span>`;
+                      $html += '</td>'
+
+                      $html += '<td class="nested-border">'
                       for (hash in artifact.hashes) {
-                        $html += `<span> <a class="badge rounded-pill bg-secondary" href="${corretto_domain}/${artifact.location}/${artifact.hashes[hash]}" target="_blank" tabindex="0">${hash}</a></span>`;
+                        $html += `<span> <a class="badge rounded-pill" style="color:#000000;background-color:#B3EFFF" href="${corretto_domain}/${artifact.location}/${artifact.hashes[hash]}" target="_blank" tabindex="0">${hash}</a></span>`;
                       }
-                      $html += '</div>';
+                      $html += '</td>'
                     }
+                    $html += '<td class="nested-border">'
+
                     $html += '<div class="col">';
                     for (i in architecture.build.test_results) {
                       test_result = architecture.build.test_results[i];
 
-                      $html += `<span> <a class="badge rounded-pill bg-success" href="${corretto_domain}/${artifact.location}/${test_result}" tabindex="0">${test_result.split('/')[1]}</a></span>`;
+                      $html += `<span> <a class="badge rounded-pill" style="color:#FFFFFF;background-color:#1C304A" href="${corretto_domain}/${artifact.location}/${test_result}" tabindex="0">${test_result.split('/')[1]}</a></span>`;
                     }
                     $html += '</td>';
                   }
