@@ -53,7 +53,7 @@
       </p>
     </div>
 
-    <div class="container" style="background-color:white;color: black;"></div>
+    <div class="container" style="background-color:white;color: black;" tabindex="0"></div>
     <table class="table table-bordered table-striped">
       <thead>
         <tr>
@@ -150,16 +150,16 @@
                       const mv = version.slice(8)
 
                       $html += `<tr><td class="nested-border">${version}</td>`;
-                      $html += `<td class="nested-border"><a href="https://github.com/corretto/corretto-${mv}/tree/${branch}" target="_blank">${branch}</a></td>`;
-                      $html += `<td class="nested-border"><a href="https://github.com/corretto/corretto-${mv}/commit/${commit}" target="_blank">${commit.substring(0, 12)}</a></td>`;
+                      $html += `<td class="nested-border"><a href="https://github.com/corretto/corretto-${mv}/tree/${branch}" target="_blank" tabindex="0">${branch}</a></td>`;
+                      $html += `<td class="nested-border"><a href="https://github.com/corretto/corretto-${mv}/commit/${commit}" target="_blank" tabindex="0">${commit.substring(0, 12)}</a></td>`;
                       $html += `<td class="nested-border">${debug_level}</td>`;
                       $html += `<td class="nested-border">${platform}</td>`;
                       $html += `<td class="nested-border">${arch}</td>`;
 
                       artifact = architecture.build.artifacts[i];
-                      $html += `<td class="nested-border"><div><span><a class="badge rounded-pill bg-primary" href="${corretto_domain}/${artifact.location}/${artifact.filename}" target="_blank">${artifact.type}</a></span>`;
+                      $html += `<td class="nested-border"><div><span><a class="badge rounded-pill bg-primary" href="${corretto_domain}/${artifact.location}/${artifact.filename}" target="_blank" tabindex="0">${artifact.type}</a></span>`;
                       for (hash in artifact.hashes) {
-                        $html += `<span> <a class="badge rounded-pill bg-secondary" href="${corretto_domain}/${artifact.location}/${artifact.hashes[hash]}" target="_blank">${hash}</a></span>`;
+                        $html += `<span> <a class="badge rounded-pill bg-secondary" href="${corretto_domain}/${artifact.location}/${artifact.hashes[hash]}" target="_blank" tabindex="0">${hash}</a></span>`;
                       }
                       $html += '</div>';
                     }
@@ -167,7 +167,7 @@
                     for (i in architecture.build.test_results) {
                       test_result = architecture.build.test_results[i];
 
-                      $html += `<span> <a class="badge rounded-pill bg-success" href="${corretto_domain}/${artifact.location}/${test_result}">${test_result.split('/')[1]}</a></span>`;
+                      $html += `<span> <a class="badge rounded-pill bg-success" href="${corretto_domain}/${artifact.location}/${test_result}" tabindex="0">${test_result.split('/')[1]}</a></span>`;
                     }
                     $html += '</td>';
                   }
@@ -194,7 +194,7 @@
     </script>
     <hr class="solid">
 
-    <div>
+    <div tabindex="0">
       <br><h4>Branch descriptions</h4>
       <dl class="row">
         <dt>develop</dt> <dd>Tracks OpenJDK Update repository where stabilization for releases happens.</dd>
@@ -205,7 +205,7 @@
       </dl>
     </div>
 
-    <div>
+    <div tabindex="0">
       <h4>Notes</h4>
       <ul>
       <li>The nightly builds have not passed the Java Technology Compatibility Kit (TCK) tests, only Amazon Corretto official releases are certified.</li>
@@ -214,7 +214,7 @@
       </ul>
     </div>
 
-    <div>
+    <div tabindex="0">
       <br><h4>Disclaimer</h4> Links are provided for testing/evaluation purposes only and should not be used for production. They contain the latest development code which may contain bugs.
     </div>
   </body>
