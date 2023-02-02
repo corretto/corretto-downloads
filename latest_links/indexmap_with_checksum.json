@@ -296,6 +296,98 @@
   }
  },
  "alpine": {
+  "aarch64": {
+   "jdk": {
+    "11": {
+     "pubkey": {
+      "checksum": "6c7fb40b9b580291c0e8315022352947",
+      "checksum_sha256": "6cfdf08be09f32ca298e2d5bd4a359ee2b275765c09b56d514624bf831eafb91",
+      "resource": "/downloads/resources/11.0.18.11.1/amazoncorretto.rsa.pub"
+     },
+     "tar.gz": {
+      "checksum": "9b2de5cfae8e5263861eab99aa079210",
+      "checksum_sha256": "c047640badcbb2ccca82237cd6ed7e514c5177ccf5102a4d1fe6c237153dee73",
+      "resource": "/downloads/resources/11.0.18.11.1/amazon-corretto-11.0.18.11.1-alpine-linux-aarch64.tar.gz"
+     },
+     "tar.gz.pub": {
+      "checksum": "3c97217748c00b6c03e68f832aad6e9d",
+      "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
+      "resource": "/downloads/resources/11.0.18.11.1/B04F24E3.pub"
+     },
+     "tar.gz.sig": {
+      "checksum": "cdbc9b45dc62fb60fd9e5c1ecc6674a2",
+      "checksum_sha256": "53f3eadcb28c9b33467b90c4fa2eb31c873fd63bca92ebf07c30d48f67b6e564",
+      "resource": "/downloads/resources/11.0.18.11.1/amazon-corretto-11.0.18.11.1-alpine-linux-aarch64.tar.gz.sig"
+     }
+    },
+    "17": {
+     "pubkey": {
+      "checksum": "6c7fb40b9b580291c0e8315022352947",
+      "checksum_sha256": "6cfdf08be09f32ca298e2d5bd4a359ee2b275765c09b56d514624bf831eafb91",
+      "resource": "/downloads/resources/17.0.6.10.1/amazoncorretto.rsa.pub"
+     },
+     "tar.gz": {
+      "checksum": "82ddc39899d0b39ea4e452add5194108",
+      "checksum_sha256": "4211f9e47ef23995dcff2b5f0193bad68837aaae20cf85756480cc9cf6cec127",
+      "resource": "/downloads/resources/17.0.6.10.1/amazon-corretto-17.0.6.10.1-alpine-linux-aarch64.tar.gz"
+     },
+     "tar.gz.pub": {
+      "checksum": "3c97217748c00b6c03e68f832aad6e9d",
+      "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
+      "resource": "/downloads/resources/17.0.6.10.1/B04F24E3.pub"
+     },
+     "tar.gz.sig": {
+      "checksum": "4710e668cd683ebda0854f35078018b5",
+      "checksum_sha256": "9da1debf1ffc5ed2904142e4587c868325c00e9991497e5bd79dafd4fd43db68",
+      "resource": "/downloads/resources/17.0.6.10.1/amazon-corretto-17.0.6.10.1-alpine-linux-aarch64.tar.gz.sig"
+     }
+    },
+    "19": {
+     "pubkey": {
+      "checksum": "6c7fb40b9b580291c0e8315022352947",
+      "checksum_sha256": "6cfdf08be09f32ca298e2d5bd4a359ee2b275765c09b56d514624bf831eafb91",
+      "resource": "/downloads/resources/19.0.2.7.1/amazoncorretto.rsa.pub"
+     },
+     "tar.gz": {
+      "checksum": "117a39dab34d564a779d5a4fdb16b244",
+      "checksum_sha256": "f01c75d1a613ae8c7c388ee7fa29f7bf0169e44d7d4a9f0119ee6060201fbdb6",
+      "resource": "/downloads/resources/19.0.2.7.1/amazon-corretto-19.0.2.7.1-alpine-linux-aarch64.tar.gz"
+     },
+     "tar.gz.pub": {
+      "checksum": "3c97217748c00b6c03e68f832aad6e9d",
+      "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
+      "resource": "/downloads/resources/19.0.2.7.1/B04F24E3.pub"
+     },
+     "tar.gz.sig": {
+      "checksum": "4b47d77fc70e448a55af4988f83ec3f8",
+      "checksum_sha256": "efb9c096fca6cc0e075c32868257d5b967a458d8f1bba74eede5c8e686393228",
+      "resource": "/downloads/resources/19.0.2.7.1/amazon-corretto-19.0.2.7.1-alpine-linux-aarch64.tar.gz.sig"
+     }
+    },
+    "8": {
+     "pubkey": {
+      "checksum": "6c7fb40b9b580291c0e8315022352947",
+      "checksum_sha256": "6cfdf08be09f32ca298e2d5bd4a359ee2b275765c09b56d514624bf831eafb91",
+      "resource": "/downloads/resources/8.362.10.1/amazoncorretto.rsa.pub"
+     },
+     "tar.gz": {
+      "checksum": "09a15f22f14f5f87064a16fc92a45a39",
+      "checksum_sha256": "039908752de5cdb9990573048df9be2e46a5bc3d58960879c16bf83e6fff9bba",
+      "resource": "/downloads/resources/8.362.10.1/amazon-corretto-8.362.10.1-alpine-linux-aarch64.tar.gz"
+     },
+     "tar.gz.pub": {
+      "checksum": "3c97217748c00b6c03e68f832aad6e9d",
+      "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
+      "resource": "/downloads/resources/8.362.10.1/B04F24E3.pub"
+     },
+     "tar.gz.sig": {
+      "checksum": "b37b11f41e31975115cb393522e901fd",
+      "checksum_sha256": "7163c3a972a53ac8b9aaa402ed1402a9b3a9e71d16daccc6bea2d6ebb89e9469",
+      "resource": "/downloads/resources/8.362.10.1/amazon-corretto-8.362.10.1-alpine-linux-aarch64.tar.gz.sig"
+     }
+    }
+   }
+  },
   "x64": {
    "jdk": {
     "11": {
