@@ -368,22 +368,22 @@
      "pubkey": {
       "checksum": "6c7fb40b9b580291c0e8315022352947",
       "checksum_sha256": "6cfdf08be09f32ca298e2d5bd4a359ee2b275765c09b56d514624bf831eafb91",
-      "resource": "/downloads/resources/20.0.0.33.1/amazoncorretto.rsa.pub"
+      "resource": "/downloads/resources/20.0.0.36.1/amazoncorretto.rsa.pub"
      },
      "tar.gz": {
-      "checksum": "38c16665d1720881d5a5f1944386cf57",
-      "checksum_sha256": "2f1d4312f5c2b14679ef7e09405f66b147231574f00cbf2f71f4fff42cf0f6da",
-      "resource": "/downloads/resources/20.0.0.33.1/amazon-corretto-20.0.0.33.1-alpine-linux-aarch64.tar.gz"
+      "checksum": "226be58d61ecc60d22777ed811a7b2be",
+      "checksum_sha256": "a85c6eb3549071ecf98b21de1d4763cecef7ae449148636c5685ae30faa3e613",
+      "resource": "/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-alpine-linux-aarch64.tar.gz"
      },
      "tar.gz.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/20.0.0.33.1/B04F24E3.pub"
+      "resource": "/downloads/resources/20.0.0.36.1/B04F24E3.pub"
      },
      "tar.gz.sig": {
-      "checksum": "9122e03b2b98d13b13d55d2300fd7797",
-      "checksum_sha256": "5dc2d12f7dec351a82713f60be11796268e55792b37bec96db39e61d9adc5ff8",
-      "resource": "/downloads/resources/20.0.0.33.1/amazon-corretto-20.0.0.33.1-alpine-linux-aarch64.tar.gz.sig"
+      "checksum": "4638d1d68e12107c36992ec993534308",
+      "checksum_sha256": "fc38336c31d31b14a9d1ea0526f74eb45de45d1f2646d9353e516702a6b833e5",
+      "resource": "/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-alpine-linux-aarch64.tar.gz.sig"
      }
     },
     "8": {
@@ -548,22 +548,22 @@
      "pubkey": {
       "checksum": "6c7fb40b9b580291c0e8315022352947",
       "checksum_sha256": "6cfdf08be09f32ca298e2d5bd4a359ee2b275765c09b56d514624bf831eafb91",
-      "resource": "/downloads/resources/20.0.0.33.1/amazoncorretto.rsa.pub"
+      "resource": "/downloads/resources/20.0.0.36.1/amazoncorretto.rsa.pub"
      },
      "tar.gz": {
-      "checksum": "54043df7c4fc5a1fa9fa1bf4b82b8645",
-      "checksum_sha256": "afb6f9a93338bcf43c8b3065b520b917aedd1eec8e42b61ac2ea15d0b36d2c72",
-      "resource": "/downloads/resources/20.0.0.33.1/amazon-corretto-20.0.0.33.1-alpine-linux-x64.tar.gz"
+      "checksum": "5e0c68be283eb841c551bb374290b0ac",
+      "checksum_sha256": "a76044c9366270537aadcb5f6980f8086acbc8e771437b6f1a5be5350a9e87ec",
+      "resource": "/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-alpine-linux-x64.tar.gz"
      },
      "tar.gz.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/20.0.0.33.1/B04F24E3.pub"
+      "resource": "/downloads/resources/20.0.0.36.1/B04F24E3.pub"
      },
      "tar.gz.sig": {
-      "checksum": "5c05746e621449fa285d4beb1a50d3f3",
-      "checksum_sha256": "4daaa5fd118de6b4062e20afdc999391baeffc8eded43c68ebd4953cc3b45ea1",
-      "resource": "/downloads/resources/20.0.0.33.1/amazon-corretto-20.0.0.33.1-alpine-linux-x64.tar.gz.sig"
+      "checksum": "06dfc576309b774e3e2dfd0ba8fdacc7",
+      "checksum_sha256": "abdb2490644737723b5af28494e55335839e22fa40de842f31148f002e7f5795",
+      "resource": "/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-alpine-linux-x64.tar.gz.sig"
      }
     },
     "8": {
@@ -817,29 +817,29 @@
     },
     "20": {
      "deb": {
-      "checksum": "41841d96e25113e52f42d1c7b8bd354e",
-      "checksum_sha256": "d5fd27a3189583510a402d6b4059d85f7cab5be286bc3d646286e5bc2dcb92ff",
-      "resource": "/downloads/resources/20.0.0.33.1/java-20-amazon-corretto-jdk_20.0.0.33-1_arm64.deb"
+      "checksum": "514f01e8752d6dff62196a8ce2bd1ee2",
+      "checksum_sha256": "9dc8a99abf82e39714154707c860f076b662f79c9531d175ada793ccf76e304d",
+      "resource": "/downloads/resources/20.0.0.36.1/java-20-amazon-corretto-jdk_20.0.0.36-1_arm64.deb"
      },
      "rpm": {
-      "checksum": "a43c42a1310d7519233c849b1a21d4a4",
-      "checksum_sha256": "385942f4878cd76e7304118483f99f1943d5a4e19b9b1d4caaf1db265c7e7237",
-      "resource": "/downloads/resources/20.0.0.33.1/java-20-amazon-corretto-devel-20.0.0.33-1.aarch64.rpm"
+      "checksum": "0ffe2b9cfc0eadb54dea088ce2cdfc2c",
+      "checksum_sha256": "9c24ceba58879a7dd16518d5c78d5aa2c187c8a466e7db4b3f9b82002069e373",
+      "resource": "/downloads/resources/20.0.0.36.1/java-20-amazon-corretto-devel-20.0.0.36-1.aarch64.rpm"
      },
      "tar.gz": {
-      "checksum": "1f1c7bd145fe13643699ec38359fca14",
-      "checksum_sha256": "9cacd01e4f8faa15c0792021ba05b1a38094cb1f27183441e353b90de4997227",
-      "resource": "/downloads/resources/20.0.0.33.1/amazon-corretto-20.0.0.33.1-linux-aarch64.tar.gz"
+      "checksum": "52e9cdffa3eb522a166545f3d6ca3a79",
+      "checksum_sha256": "956ba19ae78d5f2a5429ef0fd11ed74820fcb8f5a1f8458ef0bb690f711b393b",
+      "resource": "/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-linux-aarch64.tar.gz"
      },
      "tar.gz.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/20.0.0.33.1/B04F24E3.pub"
+      "resource": "/downloads/resources/20.0.0.36.1/B04F24E3.pub"
      },
      "tar.gz.sig": {
-      "checksum": "0633d2d0f70febf34b28c88cf57a5ba6",
-      "checksum_sha256": "8311ccf16d5092a1b77da64a9b222ab73d233067411a6d6dc4493a956aa3bed3",
-      "resource": "/downloads/resources/20.0.0.33.1/amazon-corretto-20.0.0.33.1-linux-aarch64.tar.gz.sig"
+      "checksum": "358401d2dd51885721273c43c17273d6",
+      "checksum_sha256": "2b426b897fa05b4ce8ad6561d14c9b3df6e30de02d7cff1b9b4e917e3899d20b",
+      "resource": "/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-linux-aarch64.tar.gz.sig"
      }
     },
     "8": {
@@ -1079,29 +1079,29 @@
     },
     "20": {
      "deb": {
-      "checksum": "3c047b56bcb08039731e0ffa464bb639",
-      "checksum_sha256": "dfb4987d220e2263a047fc72612abfa2d420a9e76811fa06702f818d1bec3aed",
-      "resource": "/downloads/resources/20.0.0.33.1/java-20-amazon-corretto-jdk_20.0.0.33-1_amd64.deb"
+      "checksum": "58995454cfc4d383f9845f3b6f2f291e",
+      "checksum_sha256": "51764d301c343074a91c2a9f8b8afd76a919331c59d7b39168095d4b3e15a5b8",
+      "resource": "/downloads/resources/20.0.0.36.1/java-20-amazon-corretto-jdk_20.0.0.36-1_amd64.deb"
      },
      "rpm": {
-      "checksum": "dc2f40d1483fd64f3d4e42684a085dc5",
-      "checksum_sha256": "84e4fa1c13cda88c734e0d8c4e6a675e14f57e36ffa1298fb8f31ed741cdfa29",
-      "resource": "/downloads/resources/20.0.0.33.1/java-20-amazon-corretto-devel-20.0.0.33-1.x86_64.rpm"
+      "checksum": "565a47be04810bd19e0ba747228255d0",
+      "checksum_sha256": "404a3bbe092891a4943614af61ebbc019753c1c1403ebd218d7b18615d54e399",
+      "resource": "/downloads/resources/20.0.0.36.1/java-20-amazon-corretto-devel-20.0.0.36-1.x86_64.rpm"
      },
      "tar.gz": {
-      "checksum": "a0913f9813f65f12ffa0a55e0fb15eec",
-      "checksum_sha256": "3af6c3b0c20834c2258892debd42c028d422eebb8dfc563570e150f3d8a22dae",
-      "resource": "/downloads/resources/20.0.0.33.1/amazon-corretto-20.0.0.33.1-linux-x64.tar.gz"
+      "checksum": "9a7622ffb48eecdd09a260f745438293",
+      "checksum_sha256": "7c27bb94823f904d8ebf8c5b0bafcba8b37bf4a6ae9b64653fcc4565a0d5c718",
+      "resource": "/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-linux-x64.tar.gz"
      },
      "tar.gz.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/20.0.0.33.1/B04F24E3.pub"
+      "resource": "/downloads/resources/20.0.0.36.1/B04F24E3.pub"
      },
      "tar.gz.sig": {
-      "checksum": "08e00326fe65056a9d41695722177c04",
-      "checksum_sha256": "4f5261e0b426cca69436d9f861f9a9f45e3a33324a569ce57758cf55d47eaf90",
-      "resource": "/downloads/resources/20.0.0.33.1/amazon-corretto-20.0.0.33.1-linux-x64.tar.gz.sig"
+      "checksum": "0c05b3d97d157c30e30badc851bf36db",
+      "checksum_sha256": "ad38758fcad4240d841180a66a3dcab3178e236a500e5e3b8f118299a470772a",
+      "resource": "/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-linux-x64.tar.gz.sig"
      }
     },
     "8": {
@@ -1258,24 +1258,24 @@
     },
     "20": {
      "pkg": {
-      "checksum": "431593b383ac55739d2d0dfa5b741c36",
-      "checksum_sha256": "ab6a316e9e137cc24272be37ad3e8e519eb2a6aedb178dd45e496361e69b3aed",
-      "resource": "/downloads/resources/20.0.0.33.1/amazon-corretto-20.0.0.33.1-macosx-aarch64.pkg"
+      "checksum": "0162d761eab2bea990ef801d77d7050f",
+      "checksum_sha256": "67c901c079c3435665a04f21c597351750080c6988ad0267ce65cb57c9a04ad5",
+      "resource": "/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-macosx-aarch64.pkg"
      },
      "tar.gz": {
-      "checksum": "0867b12b5246717d1c6e73a6b5d7661a",
-      "checksum_sha256": "8e150af5de29c22d573da896b73577e4af182b4096f4914eccb1163ddede0f07",
-      "resource": "/downloads/resources/20.0.0.33.1/amazon-corretto-20.0.0.33.1-macosx-aarch64.tar.gz"
+      "checksum": "49dc8c00439537b76fc977a212f887f1",
+      "checksum_sha256": "3210c0b38edfbad493433287971501de596adbbb97722dca68a8a7f667b6dc5f",
+      "resource": "/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-macosx-aarch64.tar.gz"
      },
      "tar.gz.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/20.0.0.33.1/B04F24E3.pub"
+      "resource": "/downloads/resources/20.0.0.36.1/B04F24E3.pub"
      },
      "tar.gz.sig": {
-      "checksum": "9b1c4d95571518cfdfecefee1854f0d8",
-      "checksum_sha256": "62d1f451e21e86947de98c73c89bd85176491eac49e9968d09afe884c061f789",
-      "resource": "/downloads/resources/20.0.0.33.1/amazon-corretto-20.0.0.33.1-macosx-aarch64.tar.gz.sig"
+      "checksum": "daf9ee2157a3f7f8a90470a63ff2fa86",
+      "checksum_sha256": "35c60f049878168fc90835ea123e31a1fe06f35d38285a515fa407c3b27ec657",
+      "resource": "/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-macosx-aarch64.tar.gz.sig"
      }
     },
     "8": {
@@ -1438,24 +1438,24 @@
     },
     "20": {
      "pkg": {
-      "checksum": "1a3d37ed7aaa9c9fee8c40f59404bd38",
-      "checksum_sha256": "e904ef3149e5083979c24e3e648f33c9ce826c0dec41f5dd070c76fd2e50f61e",
-      "resource": "/downloads/resources/20.0.0.33.1/amazon-corretto-20.0.0.33.1-macosx-x64.pkg"
+      "checksum": "455f77beec8deb977177de4bd2e89a13",
+      "checksum_sha256": "3d6269c955eb847d9c52ea2ce911d15262febbb211be79d3130c592fc3ee72d2",
+      "resource": "/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-macosx-x64.pkg"
      },
      "tar.gz": {
-      "checksum": "a1c17bc18a86bf466eb5890421bffb84",
-      "checksum_sha256": "a3480413f2a0baf31c06c6bc941302ce8d0e5b1b30f4afaff621c400c415bf87",
-      "resource": "/downloads/resources/20.0.0.33.1/amazon-corretto-20.0.0.33.1-macosx-x64.tar.gz"
+      "checksum": "63e0fabaf242872e697e2ebba7efb711",
+      "checksum_sha256": "c0e2abd2b4236db53ae9bfae83f5488f0c97b2db44c030f2ea33399b15ca6c6c",
+      "resource": "/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-macosx-x64.tar.gz"
      },
      "tar.gz.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/20.0.0.33.1/B04F24E3.pub"
+      "resource": "/downloads/resources/20.0.0.36.1/B04F24E3.pub"
      },
      "tar.gz.sig": {
-      "checksum": "aa8735ec16da71e227aa8beb34f151bd",
-      "checksum_sha256": "81eeecc157867ff72d787822fcb0465ba216c605caca64956164e6a11822ccf4",
-      "resource": "/downloads/resources/20.0.0.33.1/amazon-corretto-20.0.0.33.1-macosx-x64.tar.gz.sig"
+      "checksum": "d1c0a6c76ae4dcaa597fd6b33c24b417",
+      "checksum_sha256": "68578f89220187b5a9f0cefb968bd825df4a5ba83552ffe33f1910fc8d75dc8d",
+      "resource": "/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-macosx-x64.tar.gz.sig"
      }
     },
     "8": {
@@ -1620,24 +1620,24 @@
     },
     "20": {
      "msi": {
-      "checksum": "1ad7b74b41eba436fbd8966026854fd8",
-      "checksum_sha256": "ee9b39cb102458b8e824dfc3e26f67bb6125ebdc1bb868ae051a97bd6b2b11fb",
-      "resource": "/downloads/resources/20.0.0.33.1/amazon-corretto-20.0.0.33.1-windows-x64.msi"
+      "checksum": "9f8a2f01f26129e5398d7eb8fcfdd566",
+      "checksum_sha256": "253fa58121f8edc410f98381205ce8403675bf50cbb3db5d1095bb489c732b3f",
+      "resource": "/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-windows-x64.msi"
      },
      "zip": {
-      "checksum": "3bb0c5a27930305baa42dfaf6fdb2ff8",
-      "checksum_sha256": "292783c3d98a937404965435f225b5421210aeb121b8f59bcc827ab8957f6c51",
-      "resource": "/downloads/resources/20.0.0.33.1/amazon-corretto-20.0.0.33.1-windows-x64-jdk.zip"
+      "checksum": "ba57d5aa45a0baf6feca7f03a704a83a",
+      "checksum_sha256": "ab83dc069e71935240304b608eddd007c70ecc846fa1de023322687876a5d79c",
+      "resource": "/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-windows-x64-jdk.zip"
      },
      "zip.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/20.0.0.33.1/B04F24E3.pub"
+      "resource": "/downloads/resources/20.0.0.36.1/B04F24E3.pub"
      },
      "zip.sig": {
-      "checksum": "e21490e480028c2927e9e3acaedef304",
-      "checksum_sha256": "e346ce917100fca292e7abd1b896b6dc66de015acd2ba0ff93f55f88501213c5",
-      "resource": "/downloads/resources/20.0.0.33.1/amazon-corretto-20.0.0.33.1-windows-x64-jdk.zip.sig"
+      "checksum": "188137621f00614a88e6f4c31922ffa3",
+      "checksum_sha256": "2d13ea84afb5a887709afd7c0b3e3c253b678fa5d07659e1c094c6cc2c14a28e",
+      "resource": "/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-windows-x64-jdk.zip.sig"
      }
     },
     "8": {
