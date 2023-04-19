@@ -5,11 +5,12 @@
         17
     ],
     "supported_feature_releases": [
-        19
+        20
     ],
     "end_of_life_releases": [
         15,
         16,
-        18
+        18,
+        19
     ]
 }
