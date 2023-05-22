@@ -2,6 +2,8 @@
 
 This package will contain cross version download information and links that do not fit into the version specific packages.
 
+You can download specific Corretto version at [https://downloads.corretto.aws/](https://downloads.corretto.aws/).
+
 ## Latest available artifacts
 
 A JSON file containing the paths and checksums to all of the latest Corretto artifacts is available in [latest_links/indexmap_with_checksum.json](latest_links/indexmap_with_checksum.json)
