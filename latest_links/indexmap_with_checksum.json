@@ -311,6 +311,13 @@
       "checksum_sha256": "fea22ad1a005dbf13a3bf3b9be36c367506615b247119d9b282f8ce4bc7cb6cf",
       "resource": "/downloads/resources/17.0.8.8.1/java-17-amazon-corretto-17.0.8.8-1.amzn2023.1.aarch64.rpm"
      }
+    },
+    "21": {
+     "rpm": {
+      "checksum": "f678e9ed66cbfe575932ef14122a4a96",
+      "checksum_sha256": "a0179e312bb75b7c4f910395165201dffb4a977f2a8906b7bfc1ee39e569dce9",
+      "resource": "/downloads/resources/21.0.0.35.1/java-21-amazon-corretto-21.0.0.35-1.amzn2023.1.aarch64.rpm"
+     }
     }
    },
    "jdk": {
@@ -326,6 +333,13 @@
       "checksum": "5620c5843f743cfffabc5b73fc575db5",
       "checksum_sha256": "e4dd920a81da5fe8546370bcdcffab301270c33a2b04450d510b247d76a9905c",
       "resource": "/downloads/resources/17.0.8.8.1/java-17-amazon-corretto-devel-17.0.8.8-1.amzn2023.1.aarch64.rpm"
+     }
+    },
+    "21": {
+     "rpm": {
+      "checksum": "06ba04cea63750fbea8219835709f166",
+      "checksum_sha256": "778bf666715d86d446c040be1a4b4afd118c86dda4b77c33e4672e4fbad9363d",
+      "resource": "/downloads/resources/21.0.0.35.1/java-21-amazon-corretto-devel-21.0.0.35-1.amzn2023.1.aarch64.rpm"
      }
     },
     "8": {
@@ -350,6 +364,13 @@
       "checksum_sha256": "5b1117d3692cf71f24faefd1b8446d2ab30ac08d12c7c9155c79fa2c2d66224b",
       "resource": "/downloads/resources/17.0.8.8.1/java-17-amazon-corretto-jmods-17.0.8.8-1.amzn2023.1.aarch64.rpm"
      }
+    },
+    "21": {
+     "rpm": {
+      "checksum": "8c9485959cf5aaa7a2293379a511738f",
+      "checksum_sha256": "aa0aa18b7bb6417fb38ece64611282178401a36f3cd5503535d5ef10f7c9a301",
+      "resource": "/downloads/resources/21.0.0.35.1/java-21-amazon-corretto-jmods-21.0.0.35-1.amzn2023.1.aarch64.rpm"
+     }
     }
    },
    "jre": {
@@ -365,6 +386,13 @@
       "checksum": "a86b775673688d5d4c7b445e6557931f",
       "checksum_sha256": "087772e7e3f67883977cce438ad0d44991c8556be25b42d42faf2f4e8abcfbb0",
       "resource": "/downloads/resources/17.0.8.8.1/java-17-amazon-corretto-headless-17.0.8.8-1.amzn2023.1.aarch64.rpm"
+     }
+    },
+    "21": {
+     "rpm": {
+      "checksum": "9977e6c0ba7694712e3e831cc75a3daa",
+      "checksum_sha256": "18520871d49da881ad46ada97f6b65652c85a3c4d8aa46e834b6f0b686ee31b9",
+      "resource": "/downloads/resources/21.0.0.35.1/java-21-amazon-corretto-headless-21.0.0.35-1.amzn2023.1.aarch64.rpm"
      }
     },
     "8": {
@@ -391,6 +419,13 @@
       "checksum_sha256": "4d341af460b7961beb256ea912877879ab4a0275a301db1e6bae4b096775bcbb",
       "resource": "/downloads/resources/17.0.8.8.1/java-17-amazon-corretto-17.0.8.8-1.amzn2023.1.x86_64.rpm"
      }
+    },
+    "21": {
+     "rpm": {
+      "checksum": "e6a7ccba5a8872130a3ae4d7b53d076d",
+      "checksum_sha256": "7479f33fcdc10c8b5b92939400aa731bb6abec30b0266672f1f5ffe6efdf5689",
+      "resource": "/downloads/resources/21.0.0.35.1/java-21-amazon-corretto-21.0.0.35-1.amzn2023.1.x86_64.rpm"
+     }
     }
    },
    "jdk": {
@@ -406,6 +441,13 @@
       "checksum": "ee2b036e12a1be4fb1905fac29a9a333",
       "checksum_sha256": "877a3ec9a22e0ef3c8fcbdbc47c531c6242df61ef8e441c04c950cd10fd58fc7",
       "resource": "/downloads/resources/17.0.8.8.1/java-17-amazon-corretto-devel-17.0.8.8-1.amzn2023.1.x86_64.rpm"
+     }
+    },
+    "21": {
+     "rpm": {
+      "checksum": "d4eca36626ddc374695bdee6bad974c2",
+      "checksum_sha256": "e36d535275662fff56a73fd4e51b27035e7beb4bd7163adcdbf1d03a9b7e7f7b",
+      "resource": "/downloads/resources/21.0.0.35.1/java-21-amazon-corretto-devel-21.0.0.35-1.amzn2023.1.x86_64.rpm"
      }
     },
     "8": {
@@ -430,6 +472,13 @@
       "checksum_sha256": "43caba55bd75de96a5810aece8989b3b27418be2ad8ce54c6d04458675e42210",
       "resource": "/downloads/resources/17.0.8.8.1/java-17-amazon-corretto-jmods-17.0.8.8-1.amzn2023.1.x86_64.rpm"
      }
+    },
+    "21": {
+     "rpm": {
+      "checksum": "19b5fb36fef0a032d1b99c4f2ba22fed",
+      "checksum_sha256": "ea98cb4b1626efbfafa6d7ee7f8dd5c35f3f13675905aa6591c1625aa663d3fc",
+      "resource": "/downloads/resources/21.0.0.35.1/java-21-amazon-corretto-jmods-21.0.0.35-1.amzn2023.1.x86_64.rpm"
+     }
     }
    },
    "jre": {
@@ -445,6 +494,13 @@
       "checksum": "e4d8a1e5e4092d5e0e20c1c21ef427d4",
       "checksum_sha256": "4faed6f8c69243eb73226e3cb8fc3965611e325bfa85f215b7aa8189e56cedf0",
       "resource": "/downloads/resources/17.0.8.8.1/java-17-amazon-corretto-headless-17.0.8.8-1.amzn2023.1.x86_64.rpm"
+     }
+    },
+    "21": {
+     "rpm": {
+      "checksum": "ecd95992bdfc90d89b832afc3e221c12",
+      "checksum_sha256": "61f1fe9e4b810a494da3cf8edb1d208c98464be28aa897d34e3088cbbc17cee0",
+      "resource": "/downloads/resources/21.0.0.35.1/java-21-amazon-corretto-headless-21.0.0.35-1.amzn2023.1.x86_64.rpm"
      }
     },
     "8": {
