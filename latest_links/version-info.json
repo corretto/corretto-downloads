@@ -2,7 +2,8 @@
     "supported_lts_releases": [
         8,
         11,
-        17
+        17,
+        21
     ],
     "supported_feature_releases": [
         20
