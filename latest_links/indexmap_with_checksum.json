@@ -27,9 +27,9 @@
     },
     "8": {
      "rpm": {
-      "checksum": "6bc2c665d7b066e096b88d7f7463c7bc",
-      "checksum_sha256": "cd25cde113a4f41b8a9932cccf2ca775388ddd1e0334697b0666aebb4b245054",
-      "resource": "/downloads/resources/8.402.06.1/java-1.8.0-amazon-corretto-devel-1.8.0_402.b06-1.amzn2.aarch64.rpm"
+      "checksum": "851ebf66ae809c2513cf54fd6b494879",
+      "checksum_sha256": "3f38c549c6fb384b1bd6e5cc646c3af5a269422318bb280874ca9a4c31a16958",
+      "resource": "/downloads/resources/8.402.08.1/java-1.8.0-amazon-corretto-devel-1.8.0_402.b08-1.amzn2.aarch64.rpm"
      }
     }
    },
@@ -59,9 +59,9 @@
     },
     "8": {
      "rpm": {
-      "checksum": "d093d5d83c2fb6628f9843cd6cf2e763",
-      "checksum_sha256": "89218407ca0a140218c69d503d3a62922d46a3750b80e19844c30dc34af46d2d",
-      "resource": "/downloads/resources/8.402.06.1/java-1.8.0-amazon-corretto-1.8.0_402.b06-1.amzn2.aarch64.rpm"
+      "checksum": "eabade976431765d04223eec8d6daff3",
+      "checksum_sha256": "1121688877c7142c41a1ae8a43f5f2f15e448c27e18e324e89c63b50002c4d62",
+      "resource": "/downloads/resources/8.402.08.1/java-1.8.0-amazon-corretto-1.8.0_402.b08-1.amzn2.aarch64.rpm"
      }
     }
    }
@@ -93,9 +93,9 @@
     },
     "8": {
      "rpm": {
-      "checksum": "95d661531045bd1f74f6aa522ffd46fe",
-      "checksum_sha256": "60a6de278959414768c06aca5857918bb7d1948ad3b8ce1f8f1088a61bf787b3",
-      "resource": "/downloads/resources/8.402.06.1/java-1.8.0-amazon-corretto-devel-1.8.0_402.b06-1.amzn2.x86_64.rpm"
+      "checksum": "8257e2786e981dcc8c286186a6d26fbe",
+      "checksum_sha256": "124754f3dc471ebe26c5ad15483ebfd2f39f6e0ea1584829af21bba18ab1f7c0",
+      "resource": "/downloads/resources/8.402.08.1/java-1.8.0-amazon-corretto-devel-1.8.0_402.b08-1.amzn2.x86_64.rpm"
      }
     }
    },
@@ -125,9 +125,9 @@
     },
     "8": {
      "rpm": {
-      "checksum": "1fb50390a8b24b8fdd4dc90099565a9b",
-      "checksum_sha256": "295b5696b8626bdd5b6f3eaeb63c095322d67a659d70db966f8394425987d9d1",
-      "resource": "/downloads/resources/8.402.06.1/java-1.8.0-amazon-corretto-1.8.0_402.b06-1.amzn2.x86_64.rpm"
+      "checksum": "147c5f231c6673a0e68fd33f492324bb",
+      "checksum_sha256": "44b18581db2a8b377b3c61ac3d1cd26fbed0f989e840ad534cce06ffcd4e5422",
+      "resource": "/downloads/resources/8.402.08.1/java-1.8.0-amazon-corretto-1.8.0_402.b08-1.amzn2.x86_64.rpm"
      }
     }
    }
@@ -344,9 +344,9 @@
     },
     "8": {
      "rpm": {
-      "checksum": "fba6a4281cd239f19c3952c9a80bb46e",
-      "checksum_sha256": "fb746e1ca73d9e142c8778ef70e53ed5b5339cd53a6cf21dd8653397e06ede60",
-      "resource": "/downloads/resources/8.402.06.1/java-1.8.0-amazon-corretto-devel-1.8.0_402.b06-1.amzn2023.aarch64.rpm"
+      "checksum": "2db26fd43f6d32f35f2e90fe15f21013",
+      "checksum_sha256": "58034c252fdc3c22b81b0dc39e09c9f5232dcf2ccdccda53f187d61b7525b8bb",
+      "resource": "/downloads/resources/8.402.08.1/java-1.8.0-amazon-corretto-devel-1.8.0_402.b08-1.amzn2023.aarch64.rpm"
      }
     }
    },
@@ -397,9 +397,9 @@
     },
     "8": {
      "rpm": {
-      "checksum": "065e11e1f2a71d46423df93651ff93c5",
-      "checksum_sha256": "6afb728ae9db2ba48e2887f0595549a558ee1422005e2ebd6aeeb83bd5676c4c",
-      "resource": "/downloads/resources/8.402.06.1/java-1.8.0-amazon-corretto-1.8.0_402.b06-1.amzn2023.aarch64.rpm"
+      "checksum": "dc83dbb8ee7b9a6b33396feb53ee2c00",
+      "checksum_sha256": "fcec5cf8b37691af54f0f198002584d41306c9ec60d9769766ab0f81ee6b8fdb",
+      "resource": "/downloads/resources/8.402.08.1/java-1.8.0-amazon-corretto-1.8.0_402.b08-1.amzn2023.aarch64.rpm"
      }
     }
    }
@@ -452,9 +452,9 @@
     },
     "8": {
      "rpm": {
-      "checksum": "88d2a068ded694fd3dfba03eeb8d5cc4",
-      "checksum_sha256": "64ba24720fbfc77c882d1b2b515275fde268ab057e0ecb003bfa1b9ad4821bab",
-      "resource": "/downloads/resources/8.402.06.1/java-1.8.0-amazon-corretto-devel-1.8.0_402.b06-1.amzn2023.x86_64.rpm"
+      "checksum": "8781a91010923cdc2d7de975a0f93a86",
+      "checksum_sha256": "f0e28d888250f2206ad65fcb6749d444a568e6dcedd9f9ad31c9d183892ce507",
+      "resource": "/downloads/resources/8.402.08.1/java-1.8.0-amazon-corretto-devel-1.8.0_402.b08-1.amzn2023.x86_64.rpm"
      }
     }
    },
@@ -505,9 +505,9 @@
     },
     "8": {
      "rpm": {
-      "checksum": "a9b8e51de191d37a868be9eb4e053637",
-      "checksum_sha256": "246ff322d8bedf320703f8d1a5d5ce95f1a517b5e76222acd33cd2abcb79a51d",
-      "resource": "/downloads/resources/8.402.06.1/java-1.8.0-amazon-corretto-1.8.0_402.b06-1.amzn2023.x86_64.rpm"
+      "checksum": "f4a101ffc6dfde90274cdaa979a862d2",
+      "checksum_sha256": "4a12802efc22105bba75d3adac9437a219d39d6bbb34660a6659398bc3ece420",
+      "resource": "/downloads/resources/8.402.08.1/java-1.8.0-amazon-corretto-1.8.0_402.b08-1.amzn2023.x86_64.rpm"
      }
     }
    }
@@ -630,22 +630,22 @@
      "pubkey": {
       "checksum": "6c7fb40b9b580291c0e8315022352947",
       "checksum_sha256": "6cfdf08be09f32ca298e2d5bd4a359ee2b275765c09b56d514624bf831eafb91",
-      "resource": "/downloads/resources/8.402.06.1/amazoncorretto.rsa.pub"
+      "resource": "/downloads/resources/8.402.08.1/amazoncorretto.rsa.pub"
      },
      "tar.gz": {
-      "checksum": "a7ebc2b7425dd50a13329e3f7bc3c113",
-      "checksum_sha256": "aa74f4aca04b3dcfe55cf9ca4159bbc60593a628152609da9df81bcc709dac20",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-alpine-linux-aarch64.tar.gz"
+      "checksum": "91e0183d5f6b8d3f6d6cfbd20930d346",
+      "checksum_sha256": "96b7cf592b34e2be1d60938d01c34b835cd85e5f6992dc3160e4f13f84c1d1fc",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-alpine-linux-aarch64.tar.gz"
      },
      "tar.gz.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/8.402.06.1/B04F24E3.pub"
+      "resource": "/downloads/resources/8.402.08.1/B04F24E3.pub"
      },
      "tar.gz.sig": {
-      "checksum": "dfa90c14c8a558be558cda0343fcbdfa",
-      "checksum_sha256": "4f1f8e803508da8f4aedb2af689d409858cf30627fe9f976c30607be7bf66694",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-alpine-linux-aarch64.tar.gz.sig"
+      "checksum": "a6f557841165d267daf5e2289b638ea1",
+      "checksum_sha256": "d923e7537dfae121079c49aee3fd95ee7a3b9da095027af1a4a87120e747341e",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-alpine-linux-aarch64.tar.gz.sig"
      }
     }
    }
@@ -832,22 +832,22 @@
      "pubkey": {
       "checksum": "6c7fb40b9b580291c0e8315022352947",
       "checksum_sha256": "6cfdf08be09f32ca298e2d5bd4a359ee2b275765c09b56d514624bf831eafb91",
-      "resource": "/downloads/resources/8.402.06.1/amazoncorretto.rsa.pub"
+      "resource": "/downloads/resources/8.402.08.1/amazoncorretto.rsa.pub"
      },
      "tar.gz": {
-      "checksum": "4f864ab7845a57addc679bb789ee9ffe",
-      "checksum_sha256": "6b911795a79175a6ccdbe01d3d25b4222045aa11963e1db89f8993bfc31c2d84",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-alpine-linux-x64.tar.gz"
+      "checksum": "ad73ed59a5a48e9baaa5ea080a43179b",
+      "checksum_sha256": "a94c7843f6d2b08350de47be4b83906ca6259cf1b8b80060ab62bb54b2bfdc36",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-alpine-linux-x64.tar.gz"
      },
      "tar.gz.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/8.402.06.1/B04F24E3.pub"
+      "resource": "/downloads/resources/8.402.08.1/B04F24E3.pub"
      },
      "tar.gz.sig": {
-      "checksum": "8382feb46533d1d103536aaa42129468",
-      "checksum_sha256": "ef9866d946d2032f944565c23c8c6ad78287c0cf9a44c592bdc4b21f02be83e3",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-alpine-linux-x64.tar.gz.sig"
+      "checksum": "764bdbb00506461b5b26b8bdb84223a1",
+      "checksum_sha256": "c2c16b5eceb1e55db63954e04db191d9d87a424e8ad0d363a89293497cbc6204",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-alpine-linux-x64.tar.gz.sig"
      }
     }
    }
@@ -1133,29 +1133,29 @@
     },
     "8": {
      "deb": {
-      "checksum": "5d518e8c3f05fd864116621ed20c545f",
-      "checksum_sha256": "4fc1e26afd1c7bbde157be86d2284c11d6f3943af037517ecc85d3d76e82441a",
-      "resource": "/downloads/resources/8.402.06.1/java-1.8.0-amazon-corretto-jdk_8.402.06-1_arm64.deb"
+      "checksum": "5c566a8e89a764a41a3cf6fccf39072e",
+      "checksum_sha256": "d9654a111ef85ead60a21400a9b0d9ce6a3e009075cb527e6dc795705669548c",
+      "resource": "/downloads/resources/8.402.08.1/java-1.8.0-amazon-corretto-jdk_8.402.08-1_arm64.deb"
      },
      "rpm": {
-      "checksum": "9b0c9a1b7c0ddb4826201b4ac3bb439c",
-      "checksum_sha256": "68f53659f36217001f2e2f8fcda1cdb0c639a23317a0cf4346562540a14e0eaf",
-      "resource": "/downloads/resources/8.402.06.1/java-1.8.0-amazon-corretto-devel-1.8.0_402.b06-1.aarch64.rpm"
+      "checksum": "ac1845c33fce6466cb1c93f8c9572e17",
+      "checksum_sha256": "4ac83b0246a83bc46d47d9f0dc79769b7d55b607ca1c9d444c4c0ef067202cdb",
+      "resource": "/downloads/resources/8.402.08.1/java-1.8.0-amazon-corretto-devel-1.8.0_402.b08-1.aarch64.rpm"
      },
      "tar.gz": {
-      "checksum": "18946d2dcbe8b33439a0c99551d40a8f",
-      "checksum_sha256": "ece267eb45619816972715e5ea0effad354c01dd5df9dcb89b452c4a9ddb4b5a",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-linux-aarch64.tar.gz"
+      "checksum": "061fc21a63bc0a1d0e78ffa855d0982d",
+      "checksum_sha256": "0175334bec3b5aaace0b600f0f67eb7770deb5e41abefdebaf7a01f47765e299",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-linux-aarch64.tar.gz"
      },
      "tar.gz.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/8.402.06.1/B04F24E3.pub"
+      "resource": "/downloads/resources/8.402.08.1/B04F24E3.pub"
      },
      "tar.gz.sig": {
-      "checksum": "3360096ca7c3337fcc2f06e768152ffa",
-      "checksum_sha256": "5271e041bff6e5c698b93968411e8633ffa766319a570f6dd5b38cd2967ed6a5",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-linux-aarch64.tar.gz.sig"
+      "checksum": "abe8b571ee3f5e3f0ae5c29a46034307",
+      "checksum_sha256": "e72a0cae687610f33e73ac4ef1e9d85455031757d390db8d9bc4545aebdbffa4",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-linux-aarch64.tar.gz.sig"
      }
     }
    }
@@ -1422,29 +1422,29 @@
     },
     "8": {
      "deb": {
-      "checksum": "a667cdff1efa343b8be3d9331b855fc8",
-      "checksum_sha256": "0803e32eafbe6e293afeac4cabbe95f1eb70a515c2475e02ad4497acb873ef07",
-      "resource": "/downloads/resources/8.402.06.1/java-1.8.0-amazon-corretto-jdk_8.402.06-1_amd64.deb"
+      "checksum": "12e54df4558c6f95a42ef7ac9b12e901",
+      "checksum_sha256": "d21562e011cf183f6bcb89b82a1d1b47476a2a02aa111989ccaea727975abe24",
+      "resource": "/downloads/resources/8.402.08.1/java-1.8.0-amazon-corretto-jdk_8.402.08-1_amd64.deb"
      },
      "rpm": {
-      "checksum": "81cdb1698f65c6f5a3844723954b15de",
-      "checksum_sha256": "3d10267ad5963fe9852449125c54c255da7de4597548fa6d04f4e01898319779",
-      "resource": "/downloads/resources/8.402.06.1/java-1.8.0-amazon-corretto-devel-1.8.0_402.b06-1.x86_64.rpm"
+      "checksum": "a4bdd335239ffa62bf162c5af78da0aa",
+      "checksum_sha256": "680fdb4f3b4f6cb278a7b303d777052a8fdebb4f300326e8d781cd637bd242d9",
+      "resource": "/downloads/resources/8.402.08.1/java-1.8.0-amazon-corretto-devel-1.8.0_402.b08-1.x86_64.rpm"
      },
      "tar.gz": {
-      "checksum": "ffc38f2752e88455bf4a3caafb2da93a",
-      "checksum_sha256": "993c175dbaa03a5c8774e304c30893ee6cf21dd6c364d9d536843d4c1805a02a",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-linux-x64.tar.gz"
+      "checksum": "033e13fe2c1fe4c12695bcfe82534835",
+      "checksum_sha256": "0d20a34ac2b3cf50f370d8a3ca16085c4b1e73038a7b1dd60b167405198e78ee",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-linux-x64.tar.gz"
      },
      "tar.gz.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/8.402.06.1/B04F24E3.pub"
+      "resource": "/downloads/resources/8.402.08.1/B04F24E3.pub"
      },
      "tar.gz.sig": {
-      "checksum": "89e56de279c1df044a1c684e0b80f6c7",
-      "checksum_sha256": "3fc1f70ce2ba162f9eac5442527f8472d140041074678ec8a45c4f9a5b723cbd",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-linux-x64.tar.gz.sig"
+      "checksum": "23d4bf68889fa42cfc740385553c3a8c",
+      "checksum_sha256": "0b835b7a3023e68c58ff0497cb3f5fa15e88686283d37fe2f6a8e44d2057b98e",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-linux-x64.tar.gz.sig"
      }
     }
    }
@@ -1618,24 +1618,24 @@
     },
     "8": {
      "pkg": {
-      "checksum": "a9b3322309c2917cc5ccdb6e0f06c216",
-      "checksum_sha256": "b66a1ddc4c716aca43077a95dfc9787859a1edec5d7298869f36406b9d465273",
-      "resource": "/downloads/resources/8.402.07.1/amazon-corretto-8.402.07.1-macosx-aarch64.pkg"
+      "checksum": "9d59c520a74b59126d0d0014754ef8e5",
+      "checksum_sha256": "8fa923be1c52a9bec98ece6c5a3c9cb8b2c2cab618cff852edc27939c0efafc1",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-macosx-aarch64.pkg"
      },
      "tar.gz": {
-      "checksum": "ed8cc81b4e72afcde49b835c31333157",
-      "checksum_sha256": "040452fbcad94ecb24dab9e715bb32a8711acde48a98b51164704e90d550d638",
-      "resource": "/downloads/resources/8.402.07.1/amazon-corretto-8.402.07.1-macosx-aarch64.tar.gz"
+      "checksum": "8d51428952f1e3277006421c59d028c9",
+      "checksum_sha256": "7eadf4efa3571f6726ebb8a498db9a2c257c4fc8db3ba00dd49edc4c1a4bd7cc",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-macosx-aarch64.tar.gz"
      },
      "tar.gz.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/8.402.07.1/B04F24E3.pub"
+      "resource": "/downloads/resources/8.402.08.1/B04F24E3.pub"
      },
      "tar.gz.sig": {
-      "checksum": "48e1f12c0074d5851a601fd7b9c70c47",
-      "checksum_sha256": "ff1196519ad93199c9fdb37291f80ba1090c010de7b74cf86e8539c7755730dc",
-      "resource": "/downloads/resources/8.402.07.1/amazon-corretto-8.402.07.1-macosx-aarch64.tar.gz.sig"
+      "checksum": "ad34681a456bd9b0d64071faca9043cf",
+      "checksum_sha256": "2e56177363d7aeb5be81aa6c28cec8dd6211f92bf3b33b2e223ec155c638b0a4",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-macosx-aarch64.tar.gz.sig"
      }
     }
    }
@@ -1820,24 +1820,24 @@
     },
     "8": {
      "pkg": {
-      "checksum": "2f7f8b709d31cf50c84af49edb6dd405",
-      "checksum_sha256": "d00e0ac2369b27446df37ee8e95400dcb1f8a9a7a3c80ba70c0ae49763640b7e",
-      "resource": "/downloads/resources/8.402.07.1/amazon-corretto-8.402.07.1-macosx-x64.pkg"
+      "checksum": "32fec21a4a823a32db71a68eeea2a62f",
+      "checksum_sha256": "bd1a37740cb9b7592872f629043404cbc589be72c8c8e55c5e6c7087cfced9a4",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-macosx-x64.pkg"
      },
      "tar.gz": {
-      "checksum": "dbbde10fa2527462b6da3ec9393f3a30",
-      "checksum_sha256": "b5eaa548b0d0582564d692a9ca247e7c90acfa27e535b5ce7b0bcd1994826329",
-      "resource": "/downloads/resources/8.402.07.1/amazon-corretto-8.402.07.1-macosx-x64.tar.gz"
+      "checksum": "5accdc5b84b6a744bc87ddc8f344c183",
+      "checksum_sha256": "386b48d3c33de51882f8082c9aad0eea87b0e57e64f1f66b1db6fb17241570d9",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-macosx-x64.tar.gz"
      },
      "tar.gz.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/8.402.07.1/B04F24E3.pub"
+      "resource": "/downloads/resources/8.402.08.1/B04F24E3.pub"
      },
      "tar.gz.sig": {
-      "checksum": "e07ab9c8be4dbf211c6c052b3478c4bc",
-      "checksum_sha256": "dd7928a28cf752915c8de5d32d765b74f0df04a19e5f1c070f3c0e9920110587",
-      "resource": "/downloads/resources/8.402.07.1/amazon-corretto-8.402.07.1-macosx-x64.tar.gz.sig"
+      "checksum": "178fe9a1c7e1d4729ced07826cb6e6c3",
+      "checksum_sha256": "d1ef7a4bce207be4514fa24189a91b73657f1792cc681888fc1aedf4364eaeed",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-macosx-x64.tar.gz.sig"
      }
     }
    }
@@ -2024,48 +2024,48 @@
     },
     "8": {
      "msi": {
-      "checksum": "f41faf887847927565ce94c5f0159e87",
-      "checksum_sha256": "899e9e1fa67be38e837fcc6fe8a05906fc51e0019579b77a344ed03f5cb34d09",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-windows-x64-jdk.msi"
+      "checksum": "490227fc995a0f6af6dcdda6bff2c8aa",
+      "checksum_sha256": "22f106eeebaec2edac77d9f6eb36064dc47b851a789b41c29a9b4e2ab8eb9725",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-windows-x64-jdk.msi"
      },
      "zip": {
-      "checksum": "9e440b302358352f2e840768e0ea7d0e",
-      "checksum_sha256": "4804db84bbf95712f82483ea2564485d62dc46df228dbb6bbd21f3b4644981cf",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-windows-x64-jdk.zip"
+      "checksum": "4cf73554d9a5545412d94a11013136b7",
+      "checksum_sha256": "460b08c44b89ee82ed206374629a3c9422b2ce13b314bc335c910a3d564ee36e",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-windows-x64-jdk.zip"
      },
      "zip.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/8.402.06.1/B04F24E3.pub"
+      "resource": "/downloads/resources/8.402.08.1/B04F24E3.pub"
      },
      "zip.sig": {
-      "checksum": "0050a43d650b4099adaf623e1d2cdbe3",
-      "checksum_sha256": "880c4a09a439d62f118ab0a0bfd8a1798a437ac8b80036203fae90de389d0088",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-windows-x64-jdk.zip.sig"
+      "checksum": "108d0dbf9e8f82f3ebceed98da73ac3d",
+      "checksum_sha256": "24779b2f34f34f48097c5d9a51470febcb14da9d5f09f4efb73ab931291a5a93",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-windows-x64-jdk.zip.sig"
      }
     }
    },
    "jre": {
     "8": {
      "msi": {
-      "checksum": "b1b44d0389b328d787f4b2c1714b509d",
-      "checksum_sha256": "8f1d2970d11988000db43e292b813911c1fe59e9e877424cc15b8bee5f9a65f9",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-windows-x64-jre.msi"
+      "checksum": "2ae97e38ae5b96ba65ae303cf91f36e0",
+      "checksum_sha256": "5796c78a2436d14a0070a82a43cbd86f58e0762d2a7a7a815938d49be70c3697",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-windows-x64-jre.msi"
      },
      "zip": {
-      "checksum": "ede5c89aac72dffb99985781af725296",
-      "checksum_sha256": "58572442537cff799d1a0a1a0eac61df84fe2b7347455e24f358dce332dc0ea5",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-windows-x64-jre.zip"
+      "checksum": "72632783c8d1e45d3517f762b270cc5d",
+      "checksum_sha256": "c1e4ed69022c58c225a153510fd1e67d3983803834bba58c8fe5cf8a66cb558c",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-windows-x64-jre.zip"
      },
      "zip.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/8.402.06.1/B04F24E3.pub"
+      "resource": "/downloads/resources/8.402.08.1/B04F24E3.pub"
      },
      "zip.sig": {
-      "checksum": "80ed1430cbd1d38a702c1be664d25938",
-      "checksum_sha256": "ca1ca75f20be7b2eb19d646d0ef3d08224d86e67613ecb8beb5dfc8c36710144",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-windows-x64-jre.zip.sig"
+      "checksum": "7b71c80371b75e27e6f3a5e044a0f7c2",
+      "checksum_sha256": "7bf8fc45c4edd6764c1dea4d2c8ffb35ec103b627c069e2a63d8bddc0c07579d",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-windows-x64-jre.zip.sig"
      }
     }
    }
@@ -2096,48 +2096,48 @@
     },
     "8": {
      "msi": {
-      "checksum": "6451c27293e861add935f4defb8257ef",
-      "checksum_sha256": "86f57e3b6821ddb20c7738fe95d5e6584879d2a42f01d59b749248d4df5ee063",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-windows-x86-jdk.msi"
+      "checksum": "9b2aa1abac1f0eae5ae2bc702d23d785",
+      "checksum_sha256": "006b6c3eac7aaca665f1726e57d5b04a23a9800831a9fca2cbec35688b6a297e",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-windows-x86-jdk.msi"
      },
      "zip": {
-      "checksum": "a337d9f6ebd5043dc8263b5091e1fa44",
-      "checksum_sha256": "7a3e5f601c80ce50907551bcfd195bc12efde7d2fa63c60a27f5762368a1a32a",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-windows-x86-jdk.zip"
+      "checksum": "40cbfe97b1dd1ccd5db3b1fab27fa846",
+      "checksum_sha256": "777297b3cdf3faf39547f51c552653558f0da67676cfe2f035c25dbece34a2b8",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-windows-x86-jdk.zip"
      },
      "zip.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/8.402.06.1/B04F24E3.pub"
+      "resource": "/downloads/resources/8.402.08.1/B04F24E3.pub"
      },
      "zip.sig": {
-      "checksum": "fb2dd35b43b665d24685fcd2bdef0b1e",
-      "checksum_sha256": "83b825c68a1765212ec8c403d776aaa92d5fe61da19dbce32ea86ac221d25d20",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-windows-x86-jdk.zip.sig"
+      "checksum": "4b5ceb591ec39f8d6616727df75cae49",
+      "checksum_sha256": "d9da069b8faacbb016dc11214e68eba9c83cf444591be7ce16409e782080da9f",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-windows-x86-jdk.zip.sig"
      }
     }
    },
    "jre": {
     "8": {
      "msi": {
-      "checksum": "b39a735c1d7f62f05e2672775e875452",
-      "checksum_sha256": "f49bbf6dffff552076711bf5aafb6d73fa009369784c2636949aa9b8a740637e",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-windows-x86-jre.msi"
+      "checksum": "636d54679ab770ce83fee17fa5b811ed",
+      "checksum_sha256": "4bffbb82e723b9d2150653f0a679832b75e8a6ddcd7d8b0b44d83dfc3bb6b242",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-windows-x86-jre.msi"
      },
      "zip": {
-      "checksum": "ed97596f9f265c1e2efc11f5c58b6fc7",
-      "checksum_sha256": "ce856c6d7ce466d7a109eaca57e3ae552d8b416de7c76ed3cfbffc96c2189aa3",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-windows-x86-jre.zip"
+      "checksum": "350bacd28ccfec4e82ae04fee1561936",
+      "checksum_sha256": "2b0f5c41edeef3f3929b2e2d3f373d0fa119d82d42057e7f11584a5f3a15950f",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-windows-x86-jre.zip"
      },
      "zip.pub": {
       "checksum": "3c97217748c00b6c03e68f832aad6e9d",
       "checksum_sha256": "506ca4fb064c77a6fafc0de072d5f89076e9e9eeab27b1a84c7f0b73de4934b7",
-      "resource": "/downloads/resources/8.402.06.1/B04F24E3.pub"
+      "resource": "/downloads/resources/8.402.08.1/B04F24E3.pub"
      },
      "zip.sig": {
-      "checksum": "e34caf1b8549a6864b895eb4f995b788",
-      "checksum_sha256": "527be90ff8693a397db8d36562d5ef5bb3b4685352b42ec53b2c20207b15cbf6",
-      "resource": "/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-windows-x86-jre.zip.sig"
+      "checksum": "dad2cf39b35f892f4385098b260c4a7d",
+      "checksum_sha256": "f5e43a26e43dd7968c8447c2d7191367087de256a808d16a4fa6b0f9894036c5",
+      "resource": "/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-windows-x86-jre.zip.sig"
      }
     }
    }
