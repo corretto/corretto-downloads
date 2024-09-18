@@ -6,7 +6,10 @@
         21
     ],
     "supported_feature_releases": [
-        22
+        22,
+        23
+    ],
+    "preview_releases": [
     ],
     "end_of_life_releases": [
         15,
