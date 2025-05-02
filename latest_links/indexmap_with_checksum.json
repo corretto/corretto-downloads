@@ -36,9 +36,9 @@
     },
     "8": {
      "rpm": {
-      "checksum": "dbc45070a17d5d5c28c13939fd41aaad",
-      "checksum_sha256": "38a78c0be566574f78cae38a572c97062182ccb147ec39892d11fd029ab283c4",
-      "resource": "/downloads/resources/8.452.09.1/java-1.8.0-amazon-corretto-devel-1.8.0_452.b09-1.amzn2.aarch64.rpm"
+      "checksum": "f7f5d8c9b5577914e05e29723c279cf3",
+      "checksum_sha256": "7a8957e942c0c760a4100464e20f8bed63d733cd6602e4302eecb95bb65dfd51",
+      "resource": "/downloads/resources/8.452.09.2/java-1.8.0-amazon-corretto-devel-1.8.0_452.b09-2.amzn2.aarch64.rpm"
      }
     }
    },
@@ -68,9 +68,9 @@
     },
     "8": {
      "rpm": {
-      "checksum": "264524b803b33418f892ca3f7aa3a748",
-      "checksum_sha256": "38be250a60f6f5dfece427669ba2c41ce716f51c32760615a306fb286d998ddf",
-      "resource": "/downloads/resources/8.452.09.1/java-1.8.0-amazon-corretto-1.8.0_452.b09-1.amzn2.aarch64.rpm"
+      "checksum": "eac2076ac2546c4e24de7cc7501d21c1",
+      "checksum_sha256": "c336a84f2a093985f4fcd59871847de9886251fa5b5167a5b204a5d5e05bda69",
+      "resource": "/downloads/resources/8.452.09.2/java-1.8.0-amazon-corretto-1.8.0_452.b09-2.amzn2.aarch64.rpm"
      }
     }
    }
@@ -111,9 +111,9 @@
     },
     "8": {
      "rpm": {
-      "checksum": "166d3acf9e768f7fe42547f6793f3ce1",
-      "checksum_sha256": "6af8764ff2d52540844016f90f4246f6eb90a56227774bdf14bea2e658fa5d85",
-      "resource": "/downloads/resources/8.452.09.1/java-1.8.0-amazon-corretto-devel-1.8.0_452.b09-1.amzn2.x86_64.rpm"
+      "checksum": "43927997824d3408332053aace7b3748",
+      "checksum_sha256": "8264ffe9f0cbf5bb0d450bc097a7b73afabd1b6f7e574e3316b45cae2a630e2c",
+      "resource": "/downloads/resources/8.452.09.2/java-1.8.0-amazon-corretto-devel-1.8.0_452.b09-2.amzn2.x86_64.rpm"
      }
     }
    },
@@ -143,9 +143,9 @@
     },
     "8": {
      "rpm": {
-      "checksum": "6d6de68d7b9d98d99b28cb2246f7ffd4",
-      "checksum_sha256": "16fd8ac291131c4e357f7f2c64d38683602387e56decbc7b442b999632a57a3b",
-      "resource": "/downloads/resources/8.452.09.1/java-1.8.0-amazon-corretto-1.8.0_452.b09-1.amzn2.x86_64.rpm"
+      "checksum": "b5b444b90f7f44745c9ada35065cff81",
+      "checksum_sha256": "cfb1ce6d8240caf6f178be89af321f21fbf1c2e630f04c3a79c54613ee936369",
+      "resource": "/downloads/resources/8.452.09.2/java-1.8.0-amazon-corretto-1.8.0_452.b09-2.amzn2.x86_64.rpm"
      }
     }
    }
@@ -272,9 +272,9 @@
     },
     "8": {
      "rpm": {
-      "checksum": "058dd6c0ac793363249b25b1edb55895",
-      "checksum_sha256": "d5011d51062e3e839e2cc65574b089d01cf29c72dc6ebcd5c9a700ca25d43a39",
-      "resource": "/downloads/resources/8.452.09.1/java-1.8.0-amazon-corretto-devel-1.8.0_452.b09-1.amzn2023.aarch64.rpm"
+      "checksum": "80ada0676e0ea5d6aac7d9afa035c0fe",
+      "checksum_sha256": "c99788aa99431d887cb94ee7e25a02d57c94a8a42b14b5fc0ce389542e9ff7e8",
+      "resource": "/downloads/resources/8.452.09.2/java-1.8.0-amazon-corretto-devel-1.8.0_452.b09-2.amzn2023.aarch64.rpm"
      }
     }
    },
@@ -367,9 +367,9 @@
     },
     "8": {
      "rpm": {
-      "checksum": "77ca7e9f342f3697c617b0540b0ed56d",
-      "checksum_sha256": "3da6432e2eda861a7ec70b3db9304da24d8563f583d6123c3ed9723b0b99527f",
-      "resource": "/downloads/resources/8.452.09.1/java-1.8.0-amazon-corretto-1.8.0_452.b09-1.amzn2023.aarch64.rpm"
+      "checksum": "1cba4d4f8f7fd5f4ae0b0ff1a84f6dad",
+      "checksum_sha256": "dd1db4be95e5de9a73fa384fa2773213dc9cff7d76f73d6960878d282a6e9d58",
+      "resource": "/downloads/resources/8.452.09.2/java-1.8.0-amazon-corretto-1.8.0_452.b09-2.amzn2023.aarch64.rpm"
      }
     }
    }
@@ -494,9 +494,9 @@
     },
     "8": {
      "rpm": {
-      "checksum": "fadc715dc8a5e48950c36d25d5779c1a",
-      "checksum_sha256": "29113e85a492773b9a90c92e9b74d0e89b21ca8addb4a7c8d38c856831714db6",
-      "resource": "/downloads/resources/8.452.09.1/java-1.8.0-amazon-corretto-devel-1.8.0_452.b09-1.amzn2023.x86_64.rpm"
+      "checksum": "4245c35b21488251ade0d207580eaca0",
+      "checksum_sha256": "44888aed400bcb76bb36b9b9dc2ca4fea43f0ffd15bcfe7035f0429976a5926f",
+      "resource": "/downloads/resources/8.452.09.2/java-1.8.0-amazon-corretto-devel-1.8.0_452.b09-2.amzn2023.x86_64.rpm"
      }
     }
    },
@@ -589,9 +589,9 @@
     },
     "8": {
      "rpm": {
-      "checksum": "6e08393617b4e042e6bf44cde8c0a9f2",
-      "checksum_sha256": "675d437bb6ddca53692b909c4edaf59e880dbf7653d9706425908721b8a50007",
-      "resource": "/downloads/resources/8.452.09.1/java-1.8.0-amazon-corretto-1.8.0_452.b09-1.amzn2023.x86_64.rpm"
+      "checksum": "62ee46d2b26734700207a197cada38be",
+      "checksum_sha256": "51b2c81ae0603d77f82a20cccbd5a6a81a3462c7dc523758b958426114f24c47",
+      "resource": "/downloads/resources/8.452.09.2/java-1.8.0-amazon-corretto-1.8.0_452.b09-2.amzn2023.x86_64.rpm"
      }
     }
    }
