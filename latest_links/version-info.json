@@ -6,7 +6,6 @@
         21
     ],
     "supported_feature_releases": [
-        23,
         24
     ],
     "preview_releases": [
@@ -17,6 +16,7 @@
         18,
         19,
         20,
-        22
+        22,
+        23
     ]
 }
