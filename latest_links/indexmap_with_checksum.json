@@ -184,9 +184,9 @@
     },
     "25": {
      "rpm": {
-      "checksum": "df733293c56d4870ef9afa29fa8921fa",
-      "checksum_sha256": "580c2b0a5bac7ffd15c448194e12de4661dde1bd84fc5792b56793a7b459f6a4",
-      "resource": "/downloads/resources/25.0.0.34.1/java-25-amazon-corretto-debugsymbols-25.0.0.34-1.amzn2023.1.aarch64.rpm"
+      "checksum": "4a9897492958a1f77fd3fbda622f8107",
+      "checksum_sha256": "b3849a9ae0cbe554c306dcc3c0c5b4b44cd608a7582e6b0aa95c97a806a73f5e",
+      "resource": "/downloads/resources/25.0.0.36.1/java-25-amazon-corretto-debugsymbols-25.0.0.36-1.amzn2023.1.aarch64.rpm"
      }
     }
    },
@@ -235,9 +235,9 @@
     },
     "25": {
      "rpm": {
-      "checksum": "01f14b85b40e8a35681ca183246254ab",
-      "checksum_sha256": "e80a845d32c5e912d795330bfc2b7c32410ec0a4e82abb8cf258a3cea8e611dc",
-      "resource": "/downloads/resources/25.0.0.34.1/java-25-amazon-corretto-25.0.0.34-1.amzn2023.1.aarch64.rpm"
+      "checksum": "785f8ab87364450d980be982e8ab99c5",
+      "checksum_sha256": "10288d67d05f6ef17ac84de413b12c45f804934b7f532d08e244841f8c221160",
+      "resource": "/downloads/resources/25.0.0.36.1/java-25-amazon-corretto-25.0.0.36-1.amzn2023.1.aarch64.rpm"
      }
     }
    },
@@ -286,9 +286,9 @@
     },
     "25": {
      "rpm": {
-      "checksum": "a6c9a894a9aed7deb926222143ec33a9",
-      "checksum_sha256": "8fb8ddae47fdf3d2cd88c75ef538ca879c3c02f634f1e0ad2c31b18dfce60cd7",
-      "resource": "/downloads/resources/25.0.0.34.1/java-25-amazon-corretto-devel-25.0.0.34-1.amzn2023.1.aarch64.rpm"
+      "checksum": "6386540359a9b82c5ee281a593b5f331",
+      "checksum_sha256": "97182266485dbd98e38f71b91f2787e37863b3f68feb705c847b9a7b4e2df240",
+      "resource": "/downloads/resources/25.0.0.36.1/java-25-amazon-corretto-devel-25.0.0.36-1.amzn2023.1.aarch64.rpm"
      }
     },
     "8": {
@@ -344,9 +344,9 @@
     },
     "25": {
      "rpm": {
-      "checksum": "959b49faf5227dc5b68160eed512bcfa",
-      "checksum_sha256": "b20c8f0d38aafedb95ffa62ea5bf660453a116494d4a4d476a6cecb275613528",
-      "resource": "/downloads/resources/25.0.0.34.1/java-25-amazon-corretto-jmods-25.0.0.34-1.amzn2023.1.aarch64.rpm"
+      "checksum": "0a1a0846377ecd82ef2252f5d32ec957",
+      "checksum_sha256": "159eca26b33ab96da3ac86ae1e2a1366e219563265ddb9e2b1fcaf4970c3a2d4",
+      "resource": "/downloads/resources/25.0.0.36.1/java-25-amazon-corretto-jmods-25.0.0.36-1.amzn2023.1.aarch64.rpm"
      }
     }
    },
@@ -395,9 +395,9 @@
     },
     "25": {
      "rpm": {
-      "checksum": "7b8f2e08aebd319c8a2877e2fb68862b",
-      "checksum_sha256": "8936b83b8200d051bc39c21996eb297c3689639bd344d1043e38c0ea9e05bf76",
-      "resource": "/downloads/resources/25.0.0.34.1/java-25-amazon-corretto-headless-25.0.0.34-1.amzn2023.1.aarch64.rpm"
+      "checksum": "95639a7bbd1573835c24ab9fee0300d2",
+      "checksum_sha256": "86d34f65099d8b9b88dc2d1844dc110c4cdb373daf2b9638c3066a5ae5a1800c",
+      "resource": "/downloads/resources/25.0.0.36.1/java-25-amazon-corretto-headless-25.0.0.36-1.amzn2023.1.aarch64.rpm"
      }
     },
     "8": {
@@ -441,9 +441,9 @@
     },
     "25": {
      "rpm": {
-      "checksum": "84315b7e85c91053b9c0687d54a11953",
-      "checksum_sha256": "cada0bf925f5a82babe3ec3ad86880b92b03aaa66261faadcedc2622a8505ca2",
-      "resource": "/downloads/resources/25.0.0.34.1/java-25-amazon-corretto-debugsymbols-25.0.0.34-1.amzn2023.1.x86_64.rpm"
+      "checksum": "e224616913229a40f920a56ec5d0a6b0",
+      "checksum_sha256": "9a79cba12c61145d2f7c87684fb4162dfba6ec936b21b3de12dbd2f4970f9db4",
+      "resource": "/downloads/resources/25.0.0.36.1/java-25-amazon-corretto-debugsymbols-25.0.0.36-1.amzn2023.1.x86_64.rpm"
      }
     }
    },
@@ -492,9 +492,9 @@
     },
     "25": {
      "rpm": {
-      "checksum": "be486f79dd9ade47b3c6c76e88891688",
-      "checksum_sha256": "c0b601b847b672b8a61272708bce46cbd55f297b4b7811b0ceb52c6c69482792",
-      "resource": "/downloads/resources/25.0.0.34.1/java-25-amazon-corretto-25.0.0.34-1.amzn2023.1.x86_64.rpm"
+      "checksum": "3daad33b41c0e588acee9fb54f1f0b28",
+      "checksum_sha256": "8557c853e340b58a49f6d0dc610fe8bec30524686ceec3059bb225e6f0ca3224",
+      "resource": "/downloads/resources/25.0.0.36.1/java-25-amazon-corretto-25.0.0.36-1.amzn2023.1.x86_64.rpm"
      }
     }
    },
@@ -543,9 +543,9 @@
     },
     "25": {
      "rpm": {
-      "checksum": "d1a2b594f7d1fab7c147dcd1c3fb8f90",
-      "checksum_sha256": "e3c50cc615dfff4bbb5f6e3d89de06c990304f93099d2bcf47f7058d3d2f98a9",
-      "resource": "/downloads/resources/25.0.0.34.1/java-25-amazon-corretto-devel-25.0.0.34-1.amzn2023.1.x86_64.rpm"
+      "checksum": "2db2586479cc4558acbfb3e60ddb9105",
+      "checksum_sha256": "e5ccec6e1500e93f6ece2e7aef083caa5bc31a203d00fac3e25f3e5b586cc72a",
+      "resource": "/downloads/resources/25.0.0.36.1/java-25-amazon-corretto-devel-25.0.0.36-1.amzn2023.1.x86_64.rpm"
      }
     },
     "8": {
@@ -601,9 +601,9 @@
     },
     "25": {
      "rpm": {
-      "checksum": "326706b10feb1c33a9add4e6b8309e8a",
-      "checksum_sha256": "af4ef27b7380a570004eb11ec7eced86b3d25cdc644963b2d7f3d1a402ba76a7",
-      "resource": "/downloads/resources/25.0.0.34.1/java-25-amazon-corretto-jmods-25.0.0.34-1.amzn2023.1.x86_64.rpm"
+      "checksum": "89aebfb7d51e9d14165ecd6312ddbb80",
+      "checksum_sha256": "6fa711897a4def3efb6cc3a22e1319739580344bb67e430815c041e70e0de75f",
+      "resource": "/downloads/resources/25.0.0.36.1/java-25-amazon-corretto-jmods-25.0.0.36-1.amzn2023.1.x86_64.rpm"
      }
     }
    },
@@ -652,9 +652,9 @@
     },
     "25": {
      "rpm": {
-      "checksum": "ba64dd092e516910ec45c49c8e7cd026",
-      "checksum_sha256": "2823425154c4b988f43f9be77082334c1c18ce8b696910eeeda99997fcbf137a",
-      "resource": "/downloads/resources/25.0.0.34.1/java-25-amazon-corretto-headless-25.0.0.34-1.amzn2023.1.x86_64.rpm"
+      "checksum": "ea3d882d8fa0a99c42f35f3f4e18adce",
+      "checksum_sha256": "150b0038346b4f4715dc224d9e270dfb7ba9d0f37591a203fa5b2e7404721007",
+      "resource": "/downloads/resources/25.0.0.36.1/java-25-amazon-corretto-headless-25.0.0.36-1.amzn2023.1.x86_64.rpm"
      }
     },
     "8": {
