@@ -3,13 +3,13 @@
         8,
         11,
         17,
-        21
+        21,
+        25
     ],
     "supported_feature_releases": [
         24
     ],
     "preview_releases": [
-        25
     ],
     "end_of_life_releases": [
         15,
