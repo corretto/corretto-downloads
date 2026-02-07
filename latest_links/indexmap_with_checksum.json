@@ -868,6 +868,28 @@
       "resource": "/downloads/resources/25.0.2.10.1/amazon-corretto-25.0.2.10.1-alpine-linux-aarch64.tar.gz.sig"
      }
     },
+    "26": {
+     "pubkey": {
+      "checksum": "6c7fb40b9b580291c0e8315022352947",
+      "checksum_sha256": "6cfdf08be09f32ca298e2d5bd4a359ee2b275765c09b56d514624bf831eafb91",
+      "resource": "/downloads/resources/26.0.0.34.1/amazoncorretto.rsa.pub"
+     },
+     "tar.gz": {
+      "checksum": "6f6ddf69d760d81fdcb3d6bdb28ff4f3",
+      "checksum_sha256": "06f5a5e45018740090252104b7d40d261d6aa9a0844071e4211a9099c77c790e",
+      "resource": "/downloads/resources/26.0.0.34.1/amazon-corretto-26.0.0.34.1-alpine-linux-aarch64.tar.gz"
+     },
+     "tar.gz.pub": {
+      "checksum": "f6107b78d7dad7ece47e2fe6104b5f42",
+      "checksum_sha256": "6db32832d82839d368181ae730df7d642b0bff161277f0ab6023359d347cca6b",
+      "resource": "/downloads/resources/26.0.0.34.1/A122542AB04F24E3.pub"
+     },
+     "tar.gz.sig": {
+      "checksum": "3e3e3d573c3ba547c41b63d334a36ca7",
+      "checksum_sha256": "999278cabf9d8e888acc54d954ab0916d9cf00972e4e5bc4a4f1f6691572d0bf",
+      "resource": "/downloads/resources/26.0.0.34.1/amazon-corretto-26.0.0.34.1-alpine-linux-aarch64.tar.gz.sig"
+     }
+    },
     "8": {
      "pubkey": {
       "checksum": "6c7fb40b9b580291c0e8315022352947",
@@ -1156,6 +1178,28 @@
       "checksum": "99f4e2460a763f5a943c1e6cbea8594f",
       "checksum_sha256": "6ddac86ec0c44dcb858150e3b3941be8bc7eed52132cc9768b47f10c5b51ff77",
       "resource": "/downloads/resources/25.0.2.10.1/amazon-corretto-25.0.2.10.1-alpine-linux-x64.tar.gz.sig"
+     }
+    },
+    "26": {
+     "pubkey": {
+      "checksum": "6c7fb40b9b580291c0e8315022352947",
+      "checksum_sha256": "6cfdf08be09f32ca298e2d5bd4a359ee2b275765c09b56d514624bf831eafb91",
+      "resource": "/downloads/resources/26.0.0.34.1/amazoncorretto.rsa.pub"
+     },
+     "tar.gz": {
+      "checksum": "3da7beba0b67d4ab98fa59090d82ef90",
+      "checksum_sha256": "d1cbf1f297e03667686eaf6ebfbdfb3fccc0dc94eb22971fb19b139bcf5f9117",
+      "resource": "/downloads/resources/26.0.0.34.1/amazon-corretto-26.0.0.34.1-alpine-linux-x64.tar.gz"
+     },
+     "tar.gz.pub": {
+      "checksum": "f6107b78d7dad7ece47e2fe6104b5f42",
+      "checksum_sha256": "6db32832d82839d368181ae730df7d642b0bff161277f0ab6023359d347cca6b",
+      "resource": "/downloads/resources/26.0.0.34.1/A122542AB04F24E3.pub"
+     },
+     "tar.gz.sig": {
+      "checksum": "fac726e85d0e71fdff883b5eb9d2c32e",
+      "checksum_sha256": "a461100dc7337f7e952f8637876f94d957c681799447749ac525ad6703b788b2",
+      "resource": "/downloads/resources/26.0.0.34.1/amazon-corretto-26.0.0.34.1-alpine-linux-x64.tar.gz.sig"
      }
     },
     "8": {
@@ -1569,6 +1613,33 @@
       "resource": "/downloads/resources/25.0.2.10.1/amazon-corretto-25.0.2.10.1-linux-aarch64.tar.gz.sig"
      }
     },
+    "26": {
+     "deb": {
+      "checksum": "a8ad747eb92e398ada3634c2e97f13cf",
+      "checksum_sha256": "b96e91132ea07dccd5187c52bc25aca1e686a269f6351a417005c67680920f5f",
+      "resource": "/downloads/resources/26.0.0.34.1/java-26-amazon-corretto-jdk_26.0.0.34-1_arm64.deb"
+     },
+     "rpm": {
+      "checksum": "d3d3dca7f54aac4f0f8706d65ed88119",
+      "checksum_sha256": "6fa21dd00a23f6cd2ca3b398fccfff8af4fc6fc218022d2b380be3c769125cc6",
+      "resource": "/downloads/resources/26.0.0.34.1/java-26-amazon-corretto-devel-26.0.0.34-1.aarch64.rpm"
+     },
+     "tar.gz": {
+      "checksum": "37466ebde678c8189c12272309fbe56b",
+      "checksum_sha256": "5ef9b0703617f1915d659695a82d3aedaba25c0a3cde1ca985301f5fe419049d",
+      "resource": "/downloads/resources/26.0.0.34.1/amazon-corretto-26.0.0.34.1-linux-aarch64.tar.gz"
+     },
+     "tar.gz.pub": {
+      "checksum": "f6107b78d7dad7ece47e2fe6104b5f42",
+      "checksum_sha256": "6db32832d82839d368181ae730df7d642b0bff161277f0ab6023359d347cca6b",
+      "resource": "/downloads/resources/26.0.0.34.1/A122542AB04F24E3.pub"
+     },
+     "tar.gz.sig": {
+      "checksum": "009e75d02e4f5f56053b3145cf7d3fbd",
+      "checksum_sha256": "413d41168d5cab80afcc53cceb8546b8759883df21050d9d52d05b2894c311ab",
+      "resource": "/downloads/resources/26.0.0.34.1/amazon-corretto-26.0.0.34.1-linux-aarch64.tar.gz.sig"
+     }
+    },
     "8": {
      "deb": {
       "checksum": "7a9f2c1ac762c4ea8ef3a93bdb20213f",
@@ -1966,6 +2037,33 @@
       "resource": "/downloads/resources/25.0.2.10.1/amazon-corretto-25.0.2.10.1-linux-x64.tar.gz.sig"
      }
     },
+    "26": {
+     "deb": {
+      "checksum": "97a6e6ec8dd4aea175958928569d0fb4",
+      "checksum_sha256": "f72246a2123b6b7d0d973c209f8c9c3aea85ddb3bc91ddfef65fc078a153e485",
+      "resource": "/downloads/resources/26.0.0.34.1/java-26-amazon-corretto-jdk_26.0.0.34-1_amd64.deb"
+     },
+     "rpm": {
+      "checksum": "620a2b4d10a9a5d009355f5819e8f98d",
+      "checksum_sha256": "c63e8072a9683a41e9d050e4f75fc5612d2e6204ec989e38f05ea952e8da0e9b",
+      "resource": "/downloads/resources/26.0.0.34.1/java-26-amazon-corretto-devel-26.0.0.34-1.x86_64.rpm"
+     },
+     "tar.gz": {
+      "checksum": "c7c70c50542bb8ee5a7e666d5e5e13a7",
+      "checksum_sha256": "07bd1f9f1982e34ac67dc2782c4bd619e5b280685e5e7baf4965c2f74e5f9536",
+      "resource": "/downloads/resources/26.0.0.34.1/amazon-corretto-26.0.0.34.1-linux-x64.tar.gz"
+     },
+     "tar.gz.pub": {
+      "checksum": "f6107b78d7dad7ece47e2fe6104b5f42",
+      "checksum_sha256": "6db32832d82839d368181ae730df7d642b0bff161277f0ab6023359d347cca6b",
+      "resource": "/downloads/resources/26.0.0.34.1/A122542AB04F24E3.pub"
+     },
+     "tar.gz.sig": {
+      "checksum": "f1c782a20652f75e128cbe5c0b45e35d",
+      "checksum_sha256": "11b11be616ed1c41cf21c1da95c92d728b93da17c7bb9348782d2ff024980a19",
+      "resource": "/downloads/resources/26.0.0.34.1/amazon-corretto-26.0.0.34.1-linux-x64.tar.gz.sig"
+     }
+    },
     "8": {
      "deb": {
       "checksum": "21cf05c1536a3ded10815103dbf08a56",
@@ -2248,6 +2346,28 @@
       "checksum": "0e19e07b140e4bece0665ebca9f19b25",
       "checksum_sha256": "eaa0d412a06b72ac5c133798276d4b0755cce0d76b8c2a7c9b9bc6837ecfa620",
       "resource": "/downloads/resources/25.0.2.10.1/amazon-corretto-25.0.2.10.1-macosx-aarch64.tar.gz.sig"
+     }
+    },
+    "26": {
+     "pkg": {
+      "checksum": "bbc8419a6867c2253b1027e2cfd32f53",
+      "checksum_sha256": "123150238013d88dc6470018d21640390e61a354b7aa8913508deff164a41d73",
+      "resource": "/downloads/resources/26.0.0.34.1/amazon-corretto-26.0.0.34.1-macosx-aarch64.pkg"
+     },
+     "tar.gz": {
+      "checksum": "d231ffb8d341658440d2dcf2c7e3ff1b",
+      "checksum_sha256": "255e286606a1e6f56c36c8fd4ea7d756b820e3c426614c84385bb315caa6fe70",
+      "resource": "/downloads/resources/26.0.0.34.1/amazon-corretto-26.0.0.34.1-macosx-aarch64.tar.gz"
+     },
+     "tar.gz.pub": {
+      "checksum": "f6107b78d7dad7ece47e2fe6104b5f42",
+      "checksum_sha256": "6db32832d82839d368181ae730df7d642b0bff161277f0ab6023359d347cca6b",
+      "resource": "/downloads/resources/26.0.0.34.1/A122542AB04F24E3.pub"
+     },
+     "tar.gz.sig": {
+      "checksum": "76cfc68cca5608fcdc4646ee97f102dd",
+      "checksum_sha256": "eb26cec72aa09d468c19b50407c29b84ed2d2255efe712253d747c64db0605cd",
+      "resource": "/downloads/resources/26.0.0.34.1/amazon-corretto-26.0.0.34.1-macosx-aarch64.tar.gz.sig"
      }
     },
     "8": {
@@ -2540,6 +2660,28 @@
       "resource": "/downloads/resources/25.0.2.10.1/amazon-corretto-25.0.2.10.1-macosx-x64.tar.gz.sig"
      }
     },
+    "26": {
+     "pkg": {
+      "checksum": "1334233e4cdfbeb3eb546c3b1b23b562",
+      "checksum_sha256": "42694a31fa5836eb485a452b80744dad2bbd8784d556e670acfdf299d99735e0",
+      "resource": "/downloads/resources/26.0.0.34.1/amazon-corretto-26.0.0.34.1-macosx-x64.pkg"
+     },
+     "tar.gz": {
+      "checksum": "6de79fd8060faccfaac246f7fedf5031",
+      "checksum_sha256": "3f4e31b918ab5bd03d50595c6da47364e7f993cd264aa1026b6fb518b98a722f",
+      "resource": "/downloads/resources/26.0.0.34.1/amazon-corretto-26.0.0.34.1-macosx-x64.tar.gz"
+     },
+     "tar.gz.pub": {
+      "checksum": "f6107b78d7dad7ece47e2fe6104b5f42",
+      "checksum_sha256": "6db32832d82839d368181ae730df7d642b0bff161277f0ab6023359d347cca6b",
+      "resource": "/downloads/resources/26.0.0.34.1/A122542AB04F24E3.pub"
+     },
+     "tar.gz.sig": {
+      "checksum": "7e11a0f4f80c1b47584e516102d42e66",
+      "checksum_sha256": "bce82a77251d2b955de8039d3c2d444812131064ac44a752cceef4400c0def01",
+      "resource": "/downloads/resources/26.0.0.34.1/amazon-corretto-26.0.0.34.1-macosx-x64.tar.gz.sig"
+     }
+    },
     "8": {
      "pkg": {
       "checksum": "688729855403086df5f8b592d64a585c",
@@ -2830,6 +2972,28 @@
       "checksum": "2a518e4a5f120dc9d9061a72fb8576c6",
       "checksum_sha256": "596944eb10f285c105768e3f8725bf4199bdc84f373210a6b71940059a7c7a5b",
       "resource": "/downloads/resources/25.0.2.10.1/amazon-corretto-25.0.2.10.1-windows-x64-jdk.zip.sig"
+     }
+    },
+    "26": {
+     "msi": {
+      "checksum": "fe91eaaa2213e4f263446284448703db",
+      "checksum_sha256": "c3d7b928ef88db677b0faf15043b93ccf1d7a197ccef459d08e1b4dc62407634",
+      "resource": "/downloads/resources/26.0.0.34.1/amazon-corretto-26.0.0.34.1-windows-x64.msi"
+     },
+     "zip": {
+      "checksum": "c2164a8b00cc8db79a6e67f16581b7a0",
+      "checksum_sha256": "1294ae1d36bd1c2c5767331e3697db14351e49b717490973cbdd5450687ad930",
+      "resource": "/downloads/resources/26.0.0.34.1/amazon-corretto-26.0.0.34.1-windows-x64-jdk.zip"
+     },
+     "zip.pub": {
+      "checksum": "f6107b78d7dad7ece47e2fe6104b5f42",
+      "checksum_sha256": "6db32832d82839d368181ae730df7d642b0bff161277f0ab6023359d347cca6b",
+      "resource": "/downloads/resources/26.0.0.34.1/A122542AB04F24E3.pub"
+     },
+     "zip.sig": {
+      "checksum": "034015c14acad30000714d420d4fa708",
+      "checksum_sha256": "adc67c93f60b854768c214f098145b3e92ba2679f56ea8ba246267869a2de4bc",
+      "resource": "/downloads/resources/26.0.0.34.1/amazon-corretto-26.0.0.34.1-windows-x64-jdk.zip.sig"
      }
     },
     "8": {
